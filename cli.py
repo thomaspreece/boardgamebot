@@ -9,6 +9,10 @@ COMMANDS = {
 
 parser = argparse.ArgumentParser(description="BGA data tools")
 parser.add_argument("command", choices=COMMANDS.keys(), help="Command to run")
+parser.add_argument("--awards", action="store_true", help="Only suggest award-winning games")
 args = parser.parse_args()
 
-COMMANDS[args.command]()
+if args.command == "suggest":
+    COMMANDS[args.command](awards_only=args.awards)
+else:
+    COMMANDS[args.command]()

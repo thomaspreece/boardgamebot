@@ -242,7 +242,7 @@ def pull_player_history():
         print("\nNo new games found. History is up to date.")
 
 
-def suggest_games():
+def suggest_games(awards_only=False):
     with open(GAMES_FILE, "r") as f:
         games = json.load(f)
 
@@ -252,8 +252,13 @@ def suggest_games():
             for entry in json.load(f):
                 played_ids.add(str(entry.get("game_id")))
 
+    AWARD_TAGS = {"Award-winning games", "BGA Awards '25 Nominee", "BGA Awards '25 Winner"}
+
     # Filter: must support 3 players, have weight >= 50, and not already played
     games = [g for g in games if (g.get("min_player_number") or 99) <= 3 and (g.get("max_player_number") or 0) >= 3 and (g.get("weight") or 0) >= 50 and str(g.get("id")) not in played_ids]
+
+    if awards_only:
+        games = [g for g in games if AWARD_TAGS & {t.get("name") for t in g.get("tags") or []}]
 
     buckets = {"Short": [], "Medium": [], "Long": []}
     for g in games:
@@ -277,6 +282,9 @@ def suggest_games():
         print(f"  https://boardgamearena.com/gamepanel?game={pick['name']}")
         if themes:
             print(f"  Themes: {', '.join(themes)}")
+        if awards_only:
+            awards = [t["name"] for t in pick.get("tags") or [] if t.get("name") in AWARD_TAGS]
+            print(f"  Awards: {', '.join(awards)}")
 
 
 if __name__ == "__main__":
