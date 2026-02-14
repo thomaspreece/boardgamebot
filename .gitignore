@@ -2,4 +2,5 @@
 venv
 .env
 debug_*
-bga_*
+bga_*.json
+__pycache__
