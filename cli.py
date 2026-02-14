@@ -1,9 +1,10 @@
 import argparse
-from bga_functions import pull_game_list, pull_player_history
+from bga_functions import pull_game_list, pull_player_history, suggest_games
 
 COMMANDS = {
     "games": pull_game_list,
     "history": pull_player_history,
+    "suggest": suggest_games,
 }
 
 parser = argparse.ArgumentParser(description="BGA data tools")

@@ -1,5 +1,6 @@
 import requests
 import json
+import random
 import re
 import time
 import os
@@ -183,6 +184,7 @@ def pull_game_list():
                 resolved.append({"id": tag_id, "value": value})
         game["tags"] = resolved
         player_numbers = game.get("player_numbers", [])
+        game["min_player_number"] = min(player_numbers) if player_numbers else None
         game["max_player_number"] = max(player_numbers) if player_numbers else None
 
     with open(GAMES_FILE, "w") as f:
@@ -238,6 +240,43 @@ def pull_player_history():
         print(f"\nDone! Added {len(new_tables)} new games. Total: {len(all_tables)}.")
     else:
         print("\nNo new games found. History is up to date.")
+
+
+def suggest_games():
+    with open(GAMES_FILE, "r") as f:
+        games = json.load(f)
+
+    played_ids = set()
+    if os.path.exists(HISTORY_FILE):
+        with open(HISTORY_FILE, "r") as f:
+            for entry in json.load(f):
+                played_ids.add(str(entry.get("game_id")))
+
+    # Filter: must support 3 players, have weight >= 50, and not already played
+    games = [g for g in games if (g.get("min_player_number") or 99) <= 3 and (g.get("max_player_number") or 0) >= 3 and (g.get("weight") or 0) >= 50 and str(g.get("id")) not in played_ids]
+
+    buckets = {"Short": [], "Medium": [], "Long": []}
+    for g in games:
+        dur = g.get("average_duration") or 0
+        if dur <= 20:
+            buckets["Short"].append(g)
+        elif dur <= 45:
+            buckets["Medium"].append(g)
+        elif dur <= 75:
+            buckets["Long"].append(g)
+        else:
+            pass 
+
+    for label, pool in buckets.items():
+        if not pool:
+            print(f"\n{label}: No games available")
+            continue
+        pick = random.choice(pool)
+        themes = [t["name"] for t in pick.get("tags", []) if t.get("category") == "Theme"]
+        print(f"\n{pick['display_name_en']} ({pick.get('average_duration', '?')} min)")
+        print(f"  https://boardgamearena.com/gamepanel?game={pick['name']}")
+        if themes:
+            print(f"  Themes: {', '.join(themes)}")
 
 
 if __name__ == "__main__":
