@@ -1,6 +1,6 @@
-*.json
+.claude
 venv
 .env
 debug_*
-bga_*.json
+bga_session.json
 __pycache__
