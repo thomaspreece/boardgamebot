@@ -10,13 +10,18 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Create a `.env` file with your BGA credentials:
+Create a `.env` file with your credentials (see `.env-sample`):
 
 ```
 BGA_EMAIL=your_email
 BGA_PASSWORD=your_password
 BGA_PLAYER_ID=your_player_id
+SIGNAL_API_URL=https://signal-cli.example.com
+SIGNAL_SENDER=+441234567890
+SIGNAL_RECIPIENT=+441234567890
 ```
+
+The `SIGNAL_*` variables are only needed if you use the `--signal` flag.
 
 ## How it works
 
@@ -49,6 +54,7 @@ python cli.py <command> [options]
 | Option | Applies to | Description |
 |--------|-----------|-------------|
 | `--awards` | `new`, `suggest` | Only suggest award-winning or BGA Awards nominated/winning games |
+| `--signal` | `new`, `forgotten`, `suggest` | Send suggestions via Signal using the signal-cli REST API |
 
 ### Examples
 
@@ -71,4 +77,9 @@ python cli.py forgotten
 # Get both forgotten and new suggestions
 python cli.py suggest
 python cli.py suggest --awards
+
+# Send suggestions via Signal
+python cli.py suggest --signal
+python cli.py new --signal
+python cli.py forgotten --signal
 ```
