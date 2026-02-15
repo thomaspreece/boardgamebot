@@ -309,10 +309,10 @@ def suggest_new_games(awards_only=False):
 
     today = datetime.now().strftime("%Y-%m-%d")
     new_suggestions = []
-    print("New Game Suggestions:")
+    lines = ["New Game Suggestions:"]
     for label, pool in buckets.items():
         if not pool:
-            print(f"\n{label}: No games available")
+            lines.append(f"\n{label}: No games available")
             continue
         pick = random.choice(pool)
         new_suggestions.append({"id": str(pick["id"]), "name": pick["display_name_en"], "date": today})
@@ -321,21 +321,33 @@ def suggest_new_games(awards_only=False):
         for m in details.get("metadata", []):
             if m.get("type") == "description":
                 description = " ".join(part.get("text", "") for part in m.get("value", []))
+                # Truncate to 2 sentences or 150 characters, whichever is longer
+                sentences = re.split(r'(?<=[.!?])\s+', description)
+                two_sentences = " ".join(sentences[:2])
+                if len(two_sentences) > len(description[:150]):
+                    description = two_sentences
+                else:
+                    description = description[:150].rsplit(" ", 1)[0] + "..."
                 break
-        game_datas = [f"{pick.get('average_duration', '?')} min"] 
+        game_datas = [f"{pick.get('average_duration', '?')} min"]
         themes = [t["name"] for t in pick.get("tags", []) if t.get("category") == "Theme"]
         if themes:
-            game_datas += themes 
+            game_datas += themes
         if awards_only:
             awards = [t["name"] for t in pick.get("tags") or [] if t.get("name") in AWARD_TAGS]
             game_datas += awards
-        
-        print(f"- {pick['display_name_en']} ({', '.join(game_datas)}) - {description}")
+
+        lines.append(f"- {pick['display_name_en']} ({', '.join(game_datas)}) - {description}")
+
+    output = "\n".join(lines)
+    print(output)
 
     if new_suggestions:
         past_suggestions.extend(new_suggestions)
         with open(PAST_SUGGESTIONS_FILE, "w") as f:
             json.dump(past_suggestions, f, indent=2)
+
+    return output
 
 
 def suggest_forgotten_games():
@@ -374,7 +386,7 @@ def suggest_forgotten_games():
 
     if not forgotten:
         print("No forgotten games found.")
-        return
+        return "No forgotten games found."
 
     # Sort by last_played ascending (oldest first)
     forgotten.sort(key=lambda g: g["last_played"])
@@ -384,14 +396,34 @@ def suggest_forgotten_games():
         last = datetime.fromtimestamp(g["last_played"], tz=timezone.utc).strftime("%Y-%m-%d")
         return f"{name} — played {g['play_count']} times, last played {last}"
 
-    print("Forgotten Game Suggestions: ")
+    lines = ["Forgotten Game Suggestions: "]
 
     # 3 random picks (excluding oldest to avoid duplicate, unless fewer than 4 games)
     picks = random.sample(forgotten, min(3, len(forgotten)))
 
     if picks:
         for pick in picks:
-            print(f"- {_format_game(pick)}")
+            lines.append(f"- {_format_game(pick)}")
+
+    output = "\n".join(lines)
+    print(output)
+    return output
+
+
+def send_signal_message(message):
+    api_url = os.environ["SIGNAL_API_URL"]
+    sender = os.environ["SIGNAL_SENDER"]
+    recipient = os.environ["SIGNAL_RECIPIENT"]
+    resp = requests.post(
+        f"{api_url}/v2/send",
+        json={
+            "message": message,
+            "number": sender,
+            "recipients": [recipient],
+        },
+    )
+    resp.raise_for_status()
+    print("Signal message sent.")
 
 
 if __name__ == "__main__":
