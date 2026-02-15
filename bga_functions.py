@@ -309,7 +309,7 @@ def suggest_new_games(awards_only=False):
 
     today = datetime.now().strftime("%Y-%m-%d")
     new_suggestions = []
-    lines = ["New Game Suggestions:"]
+    lines = ["\n*New Game Suggestions:*"]
     for label, pool in buckets.items():
         if not pool:
             lines.append(f"\n{label}: No games available")
@@ -337,7 +337,7 @@ def suggest_new_games(awards_only=False):
             awards = [t["name"] for t in pick.get("tags") or [] if t.get("name") in AWARD_TAGS]
             game_datas += awards
 
-        lines.append(f"- {pick['display_name_en']} ({', '.join(game_datas)}) - {description}")
+        lines.append(f"- **{pick['display_name_en']}** ({', '.join(game_datas)}) - {description}")
 
     output = "\n".join(lines)
     print(output)
@@ -394,9 +394,9 @@ def suggest_forgotten_games():
     def _format_game(g):
         name = display_names.get(g["game_id"], g["game_name"])
         last = datetime.fromtimestamp(g["last_played"], tz=timezone.utc).strftime("%Y-%m-%d")
-        return f"{name} — played {g['play_count']} times, last played {last}"
+        return f"**{name}** — played {g['play_count']} times, last played {last}"
 
-    lines = ["Forgotten Game Suggestions: "]
+    lines = ["\n*Forgotten Game Suggestions:* "]
 
     # 3 random picks (excluding oldest to avoid duplicate, unless fewer than 4 games)
     picks = random.sample(forgotten, min(3, len(forgotten)))
@@ -418,6 +418,7 @@ def send_signal_message(message):
         f"{api_url}/v2/send",
         json={
             "message": message,
+            "text_mode": "styled",
             "number": sender,
             "recipients": [recipient],
         },
