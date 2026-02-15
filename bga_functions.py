@@ -14,7 +14,11 @@ BGA_EMAIL = os.environ["BGA_EMAIL"]
 BGA_PASSWORD = os.environ["BGA_PASSWORD"]
 BGA_PLAYER_ID = os.environ["BGA_PLAYER_ID"]
 
-SESSION_FILE = os.path.join(BASE_DIR, "bga_session.json")
+STORAGE_DIR = os.path.join(BASE_DIR, "storage")
+os.makedirs(STORAGE_DIR, exist_ok=True)
+
+SESSION_FILE = os.path.join(BASE_DIR, "storage/bga_session.json")
+PAST_SUGGESTIONS_FILE = os.path.join(BASE_DIR, "storage/past_suggestions.json")
 HISTORY_FILE = os.path.join(BASE_DIR, "bga_history.json")
 GAMES_FILE = os.path.join(BASE_DIR, "bga_games.json")
 
@@ -242,6 +246,19 @@ def pull_player_history():
         print("\nNo new games found. History is up to date.")
 
 
+def _get_game_details(session, request_token, game_name):
+    resp = session.post(
+        "https://en.boardgamearena.com/gamelist/gamelist/gameDetails.html",
+        headers={
+            "X-Request-Token": request_token,
+            "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+            "Referer": "https://en.boardgamearena.com/gamelist?section=all",
+        },
+        data=f"game={game_name}",
+    )
+    return resp.json().get("results", {})
+
+
 def suggest_games(awards_only=False):
     with open(GAMES_FILE, "r") as f:
         games = json.load(f)
@@ -252,10 +269,16 @@ def suggest_games(awards_only=False):
             for entry in json.load(f):
                 played_ids.add(str(entry.get("game_id")))
 
+    past_suggestions = []
+    if os.path.exists(PAST_SUGGESTIONS_FILE):
+        with open(PAST_SUGGESTIONS_FILE, "r") as f:
+            past_suggestions = json.load(f)
+    past_suggestion_ids = {str(s["id"]) for s in past_suggestions}
+
     AWARD_TAGS = {"Award-winning games", "BGA Awards '25 Nominee", "BGA Awards '25 Winner"}
 
-    # Filter: must support 3 players, have weight >= 50, and not already played
-    games = [g for g in games if (g.get("min_player_number") or 99) <= 3 and (g.get("max_player_number") or 0) >= 3 and (g.get("weight") or 0) >= 50 and str(g.get("id")) not in played_ids]
+    # Filter: must support 3 players, have weight >= 50, not already played, not previously suggested
+    games = [g for g in games if (g.get("min_player_number") or 99) <= 3 and (g.get("max_player_number") or 0) >= 3 and (g.get("weight") or 0) >= 50 and str(g.get("id")) not in played_ids and str(g.get("id")) not in past_suggestion_ids]
 
     if awards_only:
         games = [g for g in games if AWARD_TAGS & {t.get("name") for t in g.get("tags") or []}]
@@ -270,21 +293,41 @@ def suggest_games(awards_only=False):
         elif dur <= 75:
             buckets["Long"].append(g)
         else:
-            pass 
+            pass
 
+    session = _create_session()
+    resp = session.get("https://en.boardgamearena.com/gamelist?section=all")
+    request_token = _extract_request_token(resp)
+
+    today = datetime.now().strftime("%Y-%m-%d")
+    new_suggestions = []
     for label, pool in buckets.items():
         if not pool:
             print(f"\n{label}: No games available")
             continue
         pick = random.choice(pool)
+        new_suggestions.append({"id": str(pick["id"]), "name": pick["display_name_en"], "date": today})
+        details = _get_game_details(session, request_token, pick["name"])
+        description = ""
+        for m in details.get("metadata", []):
+            if m.get("type") == "description":
+                description = " ".join(part.get("text", "") for part in m.get("value", []))
+                break
         themes = [t["name"] for t in pick.get("tags", []) if t.get("category") == "Theme"]
         print(f"\n{pick['display_name_en']} ({pick.get('average_duration', '?')} min)")
         print(f"  https://boardgamearena.com/gamepanel?game={pick['name']}")
+        if description:
+            print(f"  {description}")
         if themes:
             print(f"  Themes: {', '.join(themes)}")
         if awards_only:
             awards = [t["name"] for t in pick.get("tags") or [] if t.get("name") in AWARD_TAGS]
             print(f"  Awards: {', '.join(awards)}")
+
+    if new_suggestions:
+        past_suggestions.extend(new_suggestions)
+        with open(PAST_SUGGESTIONS_FILE, "w") as f:
+            json.dump(past_suggestions, f, indent=2)
 
 
 if __name__ == "__main__":

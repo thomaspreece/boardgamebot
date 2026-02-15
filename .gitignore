@@ -4,3 +4,4 @@ venv
 debug_*
 bga_session.json
 __pycache__
+storage
