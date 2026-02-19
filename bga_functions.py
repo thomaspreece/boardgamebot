@@ -21,6 +21,7 @@ SESSION_FILE = os.path.join(BASE_DIR, "storage/bga_session.json")
 PAST_SUGGESTIONS_FILE = os.path.join(BASE_DIR, "storage/past_suggestions.json")
 HISTORY_FILE = os.path.join(BASE_DIR, "bga_history.json")
 GAMES_FILE = os.path.join(BASE_DIR, "bga_games.json")
+STATS_FILE = os.path.join(BASE_DIR, "bga_stats.json")
 
 BGA_TIMEOUT=2
 
@@ -251,6 +252,223 @@ def pull_player_history():
     else:
         print("\nNo new games found. History is up to date.")
 
+    generate_stats()
+
+
+def generate_stats():
+    with open(HISTORY_FILE, "r") as f:
+        history = json.load(f)
+
+    display_names = {}
+    if os.path.exists(GAMES_FILE):
+        with open(GAMES_FILE, "r") as f:
+            for g in json.load(f):
+                display_names[str(g["id"])] = g["display_name_en"]
+
+    def _fmt_ts(ts):
+        return datetime.fromtimestamp(ts, tz=timezone.utc).strftime("%-d %b %Y") if ts else None
+
+    TRACKED_PLAYERS = {"kristiah", "thepengineer", "thomaspr", "alice2"}
+
+    player_stats = {}  # player_name -> aggregated stats
+    game_stats = {}    # game_name -> aggregated stats
+    year_stats = {}    # year_str -> aggregated stats
+
+    for entry in history:
+        player_names = [p.strip() for p in entry.get("player_names", "").split(",") if p.strip()]
+        scores_raw = entry.get("scores", "").split(",")
+        ranks_raw = entry.get("ranks", "").split(",")
+        game_name = entry.get("game_name", "")
+        game_id = str(entry.get("game_id", ""))
+        start_ts = int(entry.get("start") or 0)
+        end_ts = int(entry.get("end") or 0)
+        duration_minutes = round((end_ts - start_ts) / 60) if end_ts > start_ts else None
+        year = datetime.fromtimestamp(end_ts, tz=timezone.utc).strftime("%Y") if end_ts else None
+
+        display = display_names.get(game_id, game_name)
+
+        # --- Per-game ---
+        if game_name not in game_stats:
+            game_stats[game_name] = {
+                "game_id": game_id,
+                "display_name": display,
+                "play_count": 0,
+                "first_played_ts": end_ts,
+                "last_played_ts": end_ts,
+                "total_duration_minutes": 0,
+                "duration_count": 0,
+                "per_player": {},
+            }
+        gs = game_stats[game_name]
+        gs["play_count"] += 1
+        if end_ts and end_ts < gs["first_played_ts"]:
+            gs["first_played_ts"] = end_ts
+        if end_ts and end_ts > gs["last_played_ts"]:
+            gs["last_played_ts"] = end_ts
+        if duration_minutes is not None:
+            gs["total_duration_minutes"] += duration_minutes
+            gs["duration_count"] += 1
+
+        # --- Per-year ---
+        if year:
+            if year not in year_stats:
+                year_stats[year] = {
+                    "total_games": 0,
+                    "per_player": {},
+                    "per_game": {},
+                }
+            ys = year_stats[year]
+            ys["total_games"] += 1
+            if game_name not in ys["per_game"]:
+                ys["per_game"][game_name] = {"display_name": display, "play_count": 0}
+            ys["per_game"][game_name]["play_count"] += 1
+
+        for i, player in enumerate(player_names):
+            try:
+                rank = int(ranks_raw[i])
+            except (IndexError, ValueError):
+                rank = None
+
+            # --- Global per-player ---
+            if player not in player_stats:
+                player_stats[player] = {
+                    "games_played": 0,
+                    "wins": 0,
+                    "rank_sum": 0,
+                    "rank_count": 0,
+                    "per_game": {},
+                }
+            ps = player_stats[player]
+            ps["games_played"] += 1
+            if rank == 1:
+                ps["wins"] += 1
+            if rank is not None:
+                ps["rank_sum"] += rank
+                ps["rank_count"] += 1
+
+            if game_name not in ps["per_game"]:
+                ps["per_game"][game_name] = {"display_name": display, "plays": 0, "wins": 0}
+            ps["per_game"][game_name]["plays"] += 1
+            if rank == 1:
+                ps["per_game"][game_name]["wins"] += 1
+
+            # --- Per-game per-player ---
+            if player not in gs["per_player"]:
+                gs["per_player"][player] = {"plays": 0, "wins": 0}
+            gs["per_player"][player]["plays"] += 1
+            if rank == 1:
+                gs["per_player"][player]["wins"] += 1
+
+            # --- Per-year per-player ---
+            if year:
+                if player not in ys["per_player"]:
+                    ys["per_player"][player] = {
+                        "games_played": 0,
+                        "wins": 0,
+                        "rank_sum": 0,
+                        "rank_count": 0,
+                    }
+                yp = ys["per_player"][player]
+                yp["games_played"] += 1
+                if rank == 1:
+                    yp["wins"] += 1
+                if rank is not None:
+                    yp["rank_sum"] += rank
+                    yp["rank_count"] += 1
+
+    # --- Build output: per_player ---
+    out_players = {}
+    for player, ps in player_stats.items():
+        if player not in TRACKED_PLAYERS:
+            continue
+        per_game_out = {}
+        for gname, pg in ps["per_game"].items():
+            per_game_out[gname] = {
+                "display_name": pg["display_name"],
+                "plays": pg["plays"],
+                "wins": pg["wins"],
+                "win_rate": round(pg["wins"] / pg["plays"], 3),
+            }
+        most_played = max(per_game_out, key=lambda g: per_game_out[g]["plays"]) if per_game_out else None
+        eligible = [g for g in per_game_out if per_game_out[g]["plays"] >= 3]
+        best_win_rate = max(eligible, key=lambda g: per_game_out[g]["win_rate"]) if eligible else None
+        best_weighted = max(per_game_out, key=lambda g: per_game_out[g]["wins"] / (per_game_out[g]["plays"] + 3)) if per_game_out else None
+        out_players[player] = {
+            "games_played": ps["games_played"],
+            "wins": ps["wins"],
+            "win_rate": round(ps["wins"] / ps["games_played"], 3) if ps["games_played"] else 0,
+            "avg_rank": round(ps["rank_sum"] / ps["rank_count"], 2) if ps["rank_count"] else None,
+            "most_played_game": most_played,
+            "best_win_rate_game": best_win_rate,
+            "best_weighted_win_rate_game": best_weighted,
+            "per_game": per_game_out,
+        }
+
+    # --- Build output: per_game ---
+    out_games = {}
+    for gname, gs in game_stats.items():
+        avg_duration = round(gs["total_duration_minutes"] / gs["duration_count"]) if gs["duration_count"] else None
+        per_player_out = {
+            player: {
+                "plays": pp["plays"],
+                "wins": pp["wins"],
+                "win_rate": round(pp["wins"] / pp["plays"], 3),
+            }
+            for player, pp in gs["per_player"].items()
+            if player in TRACKED_PLAYERS
+        }
+        out_games[gs["display_name"]] = {
+            "game_id": gs["game_id"],
+            "play_count": gs["play_count"],
+            "first_played": _fmt_ts(gs["first_played_ts"]),
+            "last_played": _fmt_ts(gs["last_played_ts"]),
+            "avg_duration_minutes": avg_duration,
+            "per_player": per_player_out,
+        }
+
+    # --- Build output: per_year ---
+    out_years = {}
+    for year, ys in sorted(year_stats.items()):
+        most_played_game = max(ys["per_game"], key=lambda g: ys["per_game"][g]["play_count"]) if ys["per_game"] else None
+        per_player_out = {}
+        for player, yp in ys["per_player"].items():
+            if player not in TRACKED_PLAYERS:
+                continue
+            per_player_out[player] = {
+                "games_played": yp["games_played"],
+                "wins": yp["wins"],
+                "win_rate": round(yp["wins"] / yp["games_played"], 3) if yp["games_played"] else 0,
+                "avg_rank": round(yp["rank_sum"] / yp["rank_count"], 2) if yp["rank_count"] else None,
+            }
+        per_game_out = {
+            gd["display_name"]: gd["play_count"]
+            for gname, gd in sorted(ys["per_game"].items(), key=lambda x: -x[1]["play_count"])
+        }
+        out_years[year] = {
+            "total_games": ys["total_games"],
+            "most_played_game": ys["per_game"][most_played_game]["display_name"] if most_played_game else None,
+            "per_player": per_player_out,
+            "per_game": per_game_out,
+        }
+
+    all_end_ts = [int(e.get("end") or 0) for e in history if e.get("end")]
+    stats = {
+        "generated_at": datetime.now(timezone.utc).strftime("%-d %b %Y %H:%M UTC"),
+        "total_games": len(history),
+        "date_range": {
+            "first": _fmt_ts(min(all_end_ts)) if all_end_ts else None,
+            "last": _fmt_ts(max(all_end_ts)) if all_end_ts else None,
+        },
+        "per_player": out_players,
+        "per_game": out_games,
+        "per_year": out_years,
+    }
+
+    with open(STATS_FILE, "w") as f:
+        json.dump(stats, f, indent=2)
+    print(f"Stats written to {STATS_FILE}")
+    return stats
+
 
 def _get_game_details(session, request_token, game_name):
     resp = session.post(
@@ -302,10 +520,10 @@ def suggest_new_games(awards_only=False):
         else:
             pass
 
-    session = _create_session()
-    resp = session.get("https://en.boardgamearena.com/gamelist?section=all")
-    time.sleep(BGA_TIMEOUT)
-    request_token = _extract_request_token(resp)
+    # session = _create_session()
+    # resp = session.get("https://en.boardgamearena.com/gamelist?section=all")
+    # time.sleep(BGA_TIMEOUT)
+    # request_token = _extract_request_token(resp)
 
     today = datetime.now().strftime("%Y-%m-%d")
     new_suggestions = []
@@ -316,19 +534,19 @@ def suggest_new_games(awards_only=False):
             continue
         pick = random.choice(pool)
         new_suggestions.append({"id": str(pick["id"]), "name": pick["display_name_en"], "date": today})
-        details = _get_game_details(session, request_token, pick["name"])
-        description = ""
-        for m in details.get("metadata", []):
-            if m.get("type") == "description":
-                description = " ".join(part.get("text", "") for part in m.get("value", []))
-                # Truncate to 2 sentences or 150 characters, whichever is longer
-                sentences = re.split(r'(?<=[.!?])\s+', description)
-                two_sentences = " ".join(sentences[:2])
-                if len(two_sentences) > len(description[:150]):
-                    description = two_sentences
-                else:
-                    description = description[:150].rsplit(" ", 1)[0] + "..."
-                break
+        # details = _get_game_details(session, request_token, pick["name"])
+        # description = ""
+        # for m in details.get("metadata", []):
+        #     if m.get("type") == "description":
+        #         description = " ".join(part.get("text", "") for part in m.get("value", []))
+        #         # Truncate to 2 sentences or 150 characters, whichever is longer
+        #         sentences = re.split(r'(?<=[.!?])\s+', description)
+        #         two_sentences = " ".join(sentences[:2])
+        #         if len(two_sentences) > len(description[:150]):
+        #             description = two_sentences
+        #         else:
+        #             description = description[:150].rsplit(" ", 1)[0] + "..."
+        #         break
         game_datas = [f"{pick.get('average_duration', '?')} min"]
         themes = [t["name"] for t in pick.get("tags", []) if t.get("category") == "Theme"]
         if themes:
@@ -337,7 +555,7 @@ def suggest_new_games(awards_only=False):
             awards = [t["name"] for t in pick.get("tags") or [] if t.get("name") in AWARD_TAGS]
             game_datas += awards
 
-        lines.append(f"- **{pick['display_name_en']}** ({', '.join(game_datas)}) - {description}")
+        lines.append(f"- **{pick['display_name_en']}** ({', '.join(game_datas)})")
 
     output = "\n".join(lines)
     print(output)

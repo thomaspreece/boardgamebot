@@ -1,0 +1,5099 @@
+{
+  "generated_at": "19 Feb 2026 20:25 UTC",
+  "total_games": 409,
+  "date_range": {
+    "first": "13 Mar 2020",
+    "last": "11 Feb 2026"
+  },
+  "per_player": {
+    "thomaspr": {
+      "games_played": 409,
+      "wins": 146,
+      "win_rate": 0.357,
+      "avg_rank": 2.18,
+      "most_played_game": "beyondthesun",
+      "best_win_rate_game": "fromage",
+      "best_weighted_win_rate_game": "fromage",
+      "per_game": {
+        "moversandshakers": {
+          "display_name": "Movers & Shakers",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "castlesofburgundy": {
+          "display_name": "The Castles of Burgundy",
+          "plays": 26,
+          "wins": 11,
+          "win_rate": 0.423
+        },
+        "harmonies": {
+          "display_name": "Harmonies",
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "potionexplosion": {
+          "display_name": "Potion Explosion",
+          "plays": 14,
+          "wins": 4,
+          "win_rate": 0.286
+        },
+        "sevenwonders": {
+          "display_name": "7 Wonders",
+          "plays": 30,
+          "wins": 10,
+          "win_rate": 0.333
+        },
+        "bonsai": {
+          "display_name": "Bonsai",
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "pergola": {
+          "display_name": "Pergola",
+          "plays": 4,
+          "wins": 3,
+          "win_rate": 0.75
+        },
+        "alhambra": {
+          "display_name": "Alhambra",
+          "plays": 7,
+          "wins": 1,
+          "win_rate": 0.143
+        },
+        "greatwesterntrail": {
+          "display_name": "Great Western Trail",
+          "plays": 18,
+          "wins": 5,
+          "win_rate": 0.278
+        },
+        "tinytowns": {
+          "display_name": "Tiny Towns",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "castleofmadkingludwig": {
+          "display_name": "Castles of Mad King Ludwig",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "apiary": {
+          "display_name": "Apiary",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "beyondthesun": {
+          "display_name": "Beyond the Sun",
+          "plays": 42,
+          "wins": 12,
+          "win_rate": 0.286
+        },
+        "fourgardens": {
+          "display_name": "Four Gardens",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thewhitecastle": {
+          "display_name": "The White Castle",
+          "plays": 3,
+          "wins": 2,
+          "win_rate": 0.667
+        },
+        "terraformingmars": {
+          "display_name": "Terraforming Mars",
+          "plays": 6,
+          "wins": 2,
+          "win_rate": 0.333
+        },
+        "craftingthecosmos": {
+          "display_name": "Crafting the Cosmos",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "cosmoctopus": {
+          "display_name": "Cosmoctopus",
+          "plays": 4,
+          "wins": 3,
+          "win_rate": 0.75
+        },
+        "wingspan": {
+          "display_name": "Wingspan",
+          "plays": 5,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "elgrande": {
+          "display_name": "El Grande",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "ageofinnovation": {
+          "display_name": "Age of Innovation: a Terra Mystica game",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "agricola": {
+          "display_name": "Agricola",
+          "plays": 19,
+          "wins": 4,
+          "win_rate": 0.211
+        },
+        "tzolkin": {
+          "display_name": "Tzolk'in",
+          "plays": 4,
+          "wins": 2,
+          "win_rate": 0.5
+        },
+        "gaiaproject": {
+          "display_name": "Gaia Project",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "seasons": {
+          "display_name": "Seasons",
+          "plays": 5,
+          "wins": 2,
+          "win_rate": 0.4
+        },
+        "spacebase": {
+          "display_name": "Space Base",
+          "plays": 9,
+          "wins": 4,
+          "win_rate": 0.444
+        },
+        "paxrenaissance": {
+          "display_name": "Pax Renaissance",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "fromage": {
+          "display_name": "Fromage",
+          "plays": 3,
+          "wins": 3,
+          "win_rate": 1.0
+        },
+        "looot": {
+          "display_name": "Looot",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "praga": {
+          "display_name": "Praga Caput Regni",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "planetunknown": {
+          "display_name": "Planet Unknown",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "kingsguild": {
+          "display_name": "The King's Guild",
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "thewolves": {
+          "display_name": "The Wolves",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "afterus": {
+          "display_name": "After Us",
+          "plays": 3,
+          "wins": 2,
+          "win_rate": 0.667
+        },
+        "clansofcaledonia": {
+          "display_name": "Clans of Caledonia",
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "amalfi": {
+          "display_name": "Amalfi - Renaissance",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "carnegie": {
+          "display_name": "Carnegie",
+          "plays": 4,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thegnomesofzavandor": {
+          "display_name": "The Gnomes of Zavandor",
+          "plays": 2,
+          "wins": 2,
+          "win_rate": 1.0
+        },
+        "humanity": {
+          "display_name": "Humanity",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "canvas": {
+          "display_name": "Canvas",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "arknova": {
+          "display_name": "Ark Nova",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "mechadream": {
+          "display_name": "Mech A Dream",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "expeditions": {
+          "display_name": "Expeditions: Around the World",
+          "plays": 2,
+          "wins": 2,
+          "win_rate": 1.0
+        },
+        "obsession": {
+          "display_name": "Obsession",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "bunnykingdom": {
+          "display_name": "Bunny Kingdom",
+          "plays": 2,
+          "wins": 2,
+          "win_rate": 1.0
+        },
+        "earth": {
+          "display_name": "Earth",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "tiwanaku": {
+          "display_name": "Tiwanaku",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "marcopolo": {
+          "display_name": "The Voyages of Marco Polo",
+          "plays": 6,
+          "wins": 3,
+          "win_rate": 0.5
+        },
+        "jaipur": {
+          "display_name": "Jaipur",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "boop": {
+          "display_name": "boop.",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "arnak": {
+          "display_name": "Lost Ruins of Arnak",
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "cubirds": {
+          "display_name": "CuBirds",
+          "plays": 9,
+          "wins": 4,
+          "win_rate": 0.444
+        },
+        "cubosaurs": {
+          "display_name": "Cubosaurs",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "draftosaurus": {
+          "display_name": "Draftosaurus",
+          "plays": 15,
+          "wins": 3,
+          "win_rate": 0.2
+        },
+        "rauha": {
+          "display_name": "Rauha",
+          "plays": 3,
+          "wins": 2,
+          "win_rate": 0.667
+        },
+        "chicagoexpress": {
+          "display_name": "Chicago Express",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "caverna": {
+          "display_name": "Caverna",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "takenoko": {
+          "display_name": "Takenoko",
+          "plays": 6,
+          "wins": 2,
+          "win_rate": 0.333
+        },
+        "stoneage": {
+          "display_name": "Stone Age",
+          "plays": 4,
+          "wins": 3,
+          "win_rate": 0.75
+        },
+        "chimerastation": {
+          "display_name": "Chimera Station",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "barenpark": {
+          "display_name": "B\u00e4renpark",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "barrage": {
+          "display_name": "Barrage",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "resarcana": {
+          "display_name": "Res Arcana",
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "catan": {
+          "display_name": "CATAN",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "coloretto": {
+          "display_name": "Coloretto",
+          "plays": 11,
+          "wins": 5,
+          "win_rate": 0.455
+        },
+        "livingforest": {
+          "display_name": "Living Forest",
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "viticulture": {
+          "display_name": "Viticulture",
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "glow": {
+          "display_name": "Glow",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "bloodrage": {
+          "display_name": "Blood Rage",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "theisleofcats": {
+          "display_name": "The Isle of Cats",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "feastforodin": {
+          "display_name": "A Feast for Odin",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "artdecko": {
+          "display_name": "Art Decko",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "dobble": {
+          "display_name": "Spot it",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "tapestry": {
+          "display_name": "Tapestry",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "steamworks": {
+          "display_name": "Steam Works",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "faifo": {
+          "display_name": "Fai-fo",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "parks": {
+          "display_name": "Parks",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "simplicity": {
+          "display_name": "Simplicity",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "abandonallartichokes": {
+          "display_name": "Abandon All Artichokes",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "fluxx": {
+          "display_name": "Fluxx",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "solarstorm": {
+          "display_name": "Solar Storm",
+          "plays": 3,
+          "wins": 3,
+          "win_rate": 1.0
+        },
+        "tranquility": {
+          "display_name": "Tranquility",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "quetzal": {
+          "display_name": "Quetzal",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "troyes": {
+          "display_name": "Troyes",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "offtherails": {
+          "display_name": "Off the Rails",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "sushigo": {
+          "display_name": "Sushi Go!",
+          "plays": 8,
+          "wins": 3,
+          "win_rate": 0.375
+        },
+        "sechsnimmt": {
+          "display_name": "6 nimmt!",
+          "plays": 8,
+          "wins": 3,
+          "win_rate": 0.375
+        },
+        "kingdombuilder": {
+          "display_name": "Kingdom Builder",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "luckynumbers": {
+          "display_name": "Lucky Numbers",
+          "plays": 5,
+          "wins": 2,
+          "win_rate": 0.4
+        },
+        "finity": {
+          "display_name": "Finity",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thebuilders": {
+          "display_name": "The Builders: Middle Ages",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kingdomino": {
+          "display_name": "Kingdomino",
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "thebuildersantiquity": {
+          "display_name": "The Builders: Antiquity",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "coltexpress": {
+          "display_name": "Colt Express",
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "raceforthegalaxy": {
+          "display_name": "Race for the Galaxy",
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "saboteur": {
+          "display_name": "Saboteur",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "carcassonne": {
+          "display_name": "Carcassonne",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "kristiah": {
+      "games_played": 382,
+      "wins": 113,
+      "win_rate": 0.296,
+      "avg_rank": 2.28,
+      "most_played_game": "beyondthesun",
+      "best_win_rate_game": "solarstorm",
+      "best_weighted_win_rate_game": "solarstorm",
+      "per_game": {
+        "moversandshakers": {
+          "display_name": "Movers & Shakers",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "castlesofburgundy": {
+          "display_name": "The Castles of Burgundy",
+          "plays": 23,
+          "wins": 6,
+          "win_rate": 0.261
+        },
+        "harmonies": {
+          "display_name": "Harmonies",
+          "plays": 5,
+          "wins": 3,
+          "win_rate": 0.6
+        },
+        "potionexplosion": {
+          "display_name": "Potion Explosion",
+          "plays": 14,
+          "wins": 1,
+          "win_rate": 0.071
+        },
+        "sevenwonders": {
+          "display_name": "7 Wonders",
+          "plays": 28,
+          "wins": 7,
+          "win_rate": 0.25
+        },
+        "bonsai": {
+          "display_name": "Bonsai",
+          "plays": 4,
+          "wins": 3,
+          "win_rate": 0.75
+        },
+        "pergola": {
+          "display_name": "Pergola",
+          "plays": 4,
+          "wins": 2,
+          "win_rate": 0.5
+        },
+        "alhambra": {
+          "display_name": "Alhambra",
+          "plays": 7,
+          "wins": 4,
+          "win_rate": 0.571
+        },
+        "greatwesterntrail": {
+          "display_name": "Great Western Trail",
+          "plays": 18,
+          "wins": 8,
+          "win_rate": 0.444
+        },
+        "tinytowns": {
+          "display_name": "Tiny Towns",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "castleofmadkingludwig": {
+          "display_name": "Castles of Mad King Ludwig",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "apiary": {
+          "display_name": "Apiary",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "beyondthesun": {
+          "display_name": "Beyond the Sun",
+          "plays": 40,
+          "wins": 15,
+          "win_rate": 0.375
+        },
+        "fourgardens": {
+          "display_name": "Four Gardens",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thewhitecastle": {
+          "display_name": "The White Castle",
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "terraformingmars": {
+          "display_name": "Terraforming Mars",
+          "plays": 6,
+          "wins": 1,
+          "win_rate": 0.167
+        },
+        "craftingthecosmos": {
+          "display_name": "Crafting the Cosmos",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "cosmoctopus": {
+          "display_name": "Cosmoctopus",
+          "plays": 4,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "wingspan": {
+          "display_name": "Wingspan",
+          "plays": 4,
+          "wins": 2,
+          "win_rate": 0.5
+        },
+        "elgrande": {
+          "display_name": "El Grande",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "ageofinnovation": {
+          "display_name": "Age of Innovation: a Terra Mystica game",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "agricola": {
+          "display_name": "Agricola",
+          "plays": 19,
+          "wins": 7,
+          "win_rate": 0.368
+        },
+        "tzolkin": {
+          "display_name": "Tzolk'in",
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "gaiaproject": {
+          "display_name": "Gaia Project",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "seasons": {
+          "display_name": "Seasons",
+          "plays": 4,
+          "wins": 2,
+          "win_rate": 0.5
+        },
+        "spacebase": {
+          "display_name": "Space Base",
+          "plays": 9,
+          "wins": 2,
+          "win_rate": 0.222
+        },
+        "paxrenaissance": {
+          "display_name": "Pax Renaissance",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "fromage": {
+          "display_name": "Fromage",
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "looot": {
+          "display_name": "Looot",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "praga": {
+          "display_name": "Praga Caput Regni",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "planetunknown": {
+          "display_name": "Planet Unknown",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "kingsguild": {
+          "display_name": "The King's Guild",
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thewolves": {
+          "display_name": "The Wolves",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "afterus": {
+          "display_name": "After Us",
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "clansofcaledonia": {
+          "display_name": "Clans of Caledonia",
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "amalfi": {
+          "display_name": "Amalfi - Renaissance",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "carnegie": {
+          "display_name": "Carnegie",
+          "plays": 4,
+          "wins": 2,
+          "win_rate": 0.5
+        },
+        "thegnomesofzavandor": {
+          "display_name": "The Gnomes of Zavandor",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "humanity": {
+          "display_name": "Humanity",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "canvas": {
+          "display_name": "Canvas",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "arknova": {
+          "display_name": "Ark Nova",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "mechadream": {
+          "display_name": "Mech A Dream",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "expeditions": {
+          "display_name": "Expeditions: Around the World",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "obsession": {
+          "display_name": "Obsession",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "bunnykingdom": {
+          "display_name": "Bunny Kingdom",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "earth": {
+          "display_name": "Earth",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "tiwanaku": {
+          "display_name": "Tiwanaku",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "marcopolo": {
+          "display_name": "The Voyages of Marco Polo",
+          "plays": 6,
+          "wins": 1,
+          "win_rate": 0.167
+        },
+        "arnak": {
+          "display_name": "Lost Ruins of Arnak",
+          "plays": 4,
+          "wins": 2,
+          "win_rate": 0.5
+        },
+        "cubirds": {
+          "display_name": "CuBirds",
+          "plays": 9,
+          "wins": 1,
+          "win_rate": 0.111
+        },
+        "cubosaurs": {
+          "display_name": "Cubosaurs",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "draftosaurus": {
+          "display_name": "Draftosaurus",
+          "plays": 15,
+          "wins": 5,
+          "win_rate": 0.333
+        },
+        "rauha": {
+          "display_name": "Rauha",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "chicagoexpress": {
+          "display_name": "Chicago Express",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "caverna": {
+          "display_name": "Caverna",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "takenoko": {
+          "display_name": "Takenoko",
+          "plays": 5,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "stoneage": {
+          "display_name": "Stone Age",
+          "plays": 4,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "chimerastation": {
+          "display_name": "Chimera Station",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "barenpark": {
+          "display_name": "B\u00e4renpark",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "barrage": {
+          "display_name": "Barrage",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "resarcana": {
+          "display_name": "Res Arcana",
+          "plays": 5,
+          "wins": 3,
+          "win_rate": 0.6
+        },
+        "catan": {
+          "display_name": "CATAN",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "coloretto": {
+          "display_name": "Coloretto",
+          "plays": 11,
+          "wins": 2,
+          "win_rate": 0.182
+        },
+        "livingforest": {
+          "display_name": "Living Forest",
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "viticulture": {
+          "display_name": "Viticulture",
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "glow": {
+          "display_name": "Glow",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "bloodrage": {
+          "display_name": "Blood Rage",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "feastforodin": {
+          "display_name": "A Feast for Odin",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "artdecko": {
+          "display_name": "Art Decko",
+          "plays": 2,
+          "wins": 2,
+          "win_rate": 1.0
+        },
+        "dobble": {
+          "display_name": "Spot it",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "tapestry": {
+          "display_name": "Tapestry",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "steamworks": {
+          "display_name": "Steam Works",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "faifo": {
+          "display_name": "Fai-fo",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "parks": {
+          "display_name": "Parks",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "simplicity": {
+          "display_name": "Simplicity",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "abandonallartichokes": {
+          "display_name": "Abandon All Artichokes",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "fluxx": {
+          "display_name": "Fluxx",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "solarstorm": {
+          "display_name": "Solar Storm",
+          "plays": 3,
+          "wins": 3,
+          "win_rate": 1.0
+        },
+        "tranquility": {
+          "display_name": "Tranquility",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "quetzal": {
+          "display_name": "Quetzal",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "troyes": {
+          "display_name": "Troyes",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "offtherails": {
+          "display_name": "Off the Rails",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "sushigo": {
+          "display_name": "Sushi Go!",
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "kingdombuilder": {
+          "display_name": "Kingdom Builder",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "luckynumbers": {
+          "display_name": "Lucky Numbers",
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "finity": {
+          "display_name": "Finity",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "thebuilders": {
+          "display_name": "The Builders: Middle Ages",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kingdomino": {
+          "display_name": "Kingdomino",
+          "plays": 5,
+          "wins": 2,
+          "win_rate": 0.4
+        },
+        "thebuildersantiquity": {
+          "display_name": "The Builders: Antiquity",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "coltexpress": {
+          "display_name": "Colt Express",
+          "plays": 4,
+          "wins": 2,
+          "win_rate": 0.5
+        },
+        "raceforthegalaxy": {
+          "display_name": "Race for the Galaxy",
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "carcassonne": {
+          "display_name": "Carcassonne",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "sechsnimmt": {
+          "display_name": "6 nimmt!",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "saboteur": {
+          "display_name": "Saboteur",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "alice2": {
+      "games_played": 396,
+      "wins": 92,
+      "win_rate": 0.232,
+      "avg_rank": 2.38,
+      "most_played_game": "beyondthesun",
+      "best_win_rate_game": "solarstorm",
+      "best_weighted_win_rate_game": "solarstorm",
+      "per_game": {
+        "moversandshakers": {
+          "display_name": "Movers & Shakers",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "castlesofburgundy": {
+          "display_name": "The Castles of Burgundy",
+          "plays": 26,
+          "wins": 3,
+          "win_rate": 0.115
+        },
+        "harmonies": {
+          "display_name": "Harmonies",
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "potionexplosion": {
+          "display_name": "Potion Explosion",
+          "plays": 13,
+          "wins": 6,
+          "win_rate": 0.462
+        },
+        "sevenwonders": {
+          "display_name": "7 Wonders",
+          "plays": 30,
+          "wins": 3,
+          "win_rate": 0.1
+        },
+        "bonsai": {
+          "display_name": "Bonsai",
+          "plays": 4,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "pergola": {
+          "display_name": "Pergola",
+          "plays": 4,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alhambra": {
+          "display_name": "Alhambra",
+          "plays": 6,
+          "wins": 2,
+          "win_rate": 0.333
+        },
+        "greatwesterntrail": {
+          "display_name": "Great Western Trail",
+          "plays": 18,
+          "wins": 3,
+          "win_rate": 0.167
+        },
+        "tinytowns": {
+          "display_name": "Tiny Towns",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "castleofmadkingludwig": {
+          "display_name": "Castles of Mad King Ludwig",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "apiary": {
+          "display_name": "Apiary",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "beyondthesun": {
+          "display_name": "Beyond the Sun",
+          "plays": 41,
+          "wins": 8,
+          "win_rate": 0.195
+        },
+        "fourgardens": {
+          "display_name": "Four Gardens",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thewhitecastle": {
+          "display_name": "The White Castle",
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "terraformingmars": {
+          "display_name": "Terraforming Mars",
+          "plays": 6,
+          "wins": 2,
+          "win_rate": 0.333
+        },
+        "craftingthecosmos": {
+          "display_name": "Crafting the Cosmos",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "cosmoctopus": {
+          "display_name": "Cosmoctopus",
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "wingspan": {
+          "display_name": "Wingspan",
+          "plays": 5,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "elgrande": {
+          "display_name": "El Grande",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "ageofinnovation": {
+          "display_name": "Age of Innovation: a Terra Mystica game",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "agricola": {
+          "display_name": "Agricola",
+          "plays": 19,
+          "wins": 1,
+          "win_rate": 0.053
+        },
+        "tzolkin": {
+          "display_name": "Tzolk'in",
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "gaiaproject": {
+          "display_name": "Gaia Project",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "seasons": {
+          "display_name": "Seasons",
+          "plays": 5,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "spacebase": {
+          "display_name": "Space Base",
+          "plays": 9,
+          "wins": 3,
+          "win_rate": 0.333
+        },
+        "paxrenaissance": {
+          "display_name": "Pax Renaissance",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "fromage": {
+          "display_name": "Fromage",
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "looot": {
+          "display_name": "Looot",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "praga": {
+          "display_name": "Praga Caput Regni",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "planetunknown": {
+          "display_name": "Planet Unknown",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kingsguild": {
+          "display_name": "The King's Guild",
+          "plays": 3,
+          "wins": 2,
+          "win_rate": 0.667
+        },
+        "thewolves": {
+          "display_name": "The Wolves",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "afterus": {
+          "display_name": "After Us",
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "clansofcaledonia": {
+          "display_name": "Clans of Caledonia",
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "amalfi": {
+          "display_name": "Amalfi - Renaissance",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "carnegie": {
+          "display_name": "Carnegie",
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "thegnomesofzavandor": {
+          "display_name": "The Gnomes of Zavandor",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "humanity": {
+          "display_name": "Humanity",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "canvas": {
+          "display_name": "Canvas",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "arknova": {
+          "display_name": "Ark Nova",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "mechadream": {
+          "display_name": "Mech A Dream",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "expeditions": {
+          "display_name": "Expeditions: Around the World",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "obsession": {
+          "display_name": "Obsession",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "bunnykingdom": {
+          "display_name": "Bunny Kingdom",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "earth": {
+          "display_name": "Earth",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "tiwanaku": {
+          "display_name": "Tiwanaku",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "marcopolo": {
+          "display_name": "The Voyages of Marco Polo",
+          "plays": 6,
+          "wins": 2,
+          "win_rate": 0.333
+        },
+        "jaipur": {
+          "display_name": "Jaipur",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "boop": {
+          "display_name": "boop.",
+          "plays": 2,
+          "wins": 2,
+          "win_rate": 1.0
+        },
+        "arnak": {
+          "display_name": "Lost Ruins of Arnak",
+          "plays": 4,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "cubirds": {
+          "display_name": "CuBirds",
+          "plays": 9,
+          "wins": 2,
+          "win_rate": 0.222
+        },
+        "cubosaurs": {
+          "display_name": "Cubosaurs",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "draftosaurus": {
+          "display_name": "Draftosaurus",
+          "plays": 15,
+          "wins": 4,
+          "win_rate": 0.267
+        },
+        "rauha": {
+          "display_name": "Rauha",
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "chicagoexpress": {
+          "display_name": "Chicago Express",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "caverna": {
+          "display_name": "Caverna",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "takenoko": {
+          "display_name": "Takenoko",
+          "plays": 5,
+          "wins": 2,
+          "win_rate": 0.4
+        },
+        "stoneage": {
+          "display_name": "Stone Age",
+          "plays": 4,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "barenpark": {
+          "display_name": "B\u00e4renpark",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "barrage": {
+          "display_name": "Barrage",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "resarcana": {
+          "display_name": "Res Arcana",
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "catan": {
+          "display_name": "CATAN",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "coloretto": {
+          "display_name": "Coloretto",
+          "plays": 10,
+          "wins": 2,
+          "win_rate": 0.2
+        },
+        "livingforest": {
+          "display_name": "Living Forest",
+          "plays": 5,
+          "wins": 3,
+          "win_rate": 0.6
+        },
+        "viticulture": {
+          "display_name": "Viticulture",
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "glow": {
+          "display_name": "Glow",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "bloodrage": {
+          "display_name": "Blood Rage",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "theisleofcats": {
+          "display_name": "The Isle of Cats",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "feastforodin": {
+          "display_name": "A Feast for Odin",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "artdecko": {
+          "display_name": "Art Decko",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "dobble": {
+          "display_name": "Spot it",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "tapestry": {
+          "display_name": "Tapestry",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "steamworks": {
+          "display_name": "Steam Works",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "faifo": {
+          "display_name": "Fai-fo",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "parks": {
+          "display_name": "Parks",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "simplicity": {
+          "display_name": "Simplicity",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "abandonallartichokes": {
+          "display_name": "Abandon All Artichokes",
+          "plays": 2,
+          "wins": 2,
+          "win_rate": 1.0
+        },
+        "fluxx": {
+          "display_name": "Fluxx",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "solarstorm": {
+          "display_name": "Solar Storm",
+          "plays": 3,
+          "wins": 3,
+          "win_rate": 1.0
+        },
+        "tranquility": {
+          "display_name": "Tranquility",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "quetzal": {
+          "display_name": "Quetzal",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "troyes": {
+          "display_name": "Troyes",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "offtherails": {
+          "display_name": "Off the Rails",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "sushigo": {
+          "display_name": "Sushi Go!",
+          "plays": 7,
+          "wins": 2,
+          "win_rate": 0.286
+        },
+        "sechsnimmt": {
+          "display_name": "6 nimmt!",
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "kingdombuilder": {
+          "display_name": "Kingdom Builder",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "luckynumbers": {
+          "display_name": "Lucky Numbers",
+          "plays": 5,
+          "wins": 2,
+          "win_rate": 0.4
+        },
+        "finity": {
+          "display_name": "Finity",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thebuilders": {
+          "display_name": "The Builders: Middle Ages",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "kingdomino": {
+          "display_name": "Kingdomino",
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "thebuildersantiquity": {
+          "display_name": "The Builders: Antiquity",
+          "plays": 2,
+          "wins": 2,
+          "win_rate": 1.0
+        },
+        "coltexpress": {
+          "display_name": "Colt Express",
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "raceforthegalaxy": {
+          "display_name": "Race for the Galaxy",
+          "plays": 5,
+          "wins": 2,
+          "win_rate": 0.4
+        },
+        "saboteur": {
+          "display_name": "Saboteur",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "thepengineer": {
+      "games_played": 254,
+      "wins": 58,
+      "win_rate": 0.228,
+      "avg_rank": 2.59,
+      "most_played_game": "beyondthesun",
+      "best_win_rate_game": "solarstorm",
+      "best_weighted_win_rate_game": "solarstorm",
+      "per_game": {
+        "castlesofburgundy": {
+          "display_name": "The Castles of Burgundy",
+          "plays": 20,
+          "wins": 6,
+          "win_rate": 0.3
+        },
+        "potionexplosion": {
+          "display_name": "Potion Explosion",
+          "plays": 10,
+          "wins": 3,
+          "win_rate": 0.3
+        },
+        "bonsai": {
+          "display_name": "Bonsai",
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alhambra": {
+          "display_name": "Alhambra",
+          "plays": 5,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "greatwesterntrail": {
+          "display_name": "Great Western Trail",
+          "plays": 17,
+          "wins": 2,
+          "win_rate": 0.118
+        },
+        "apiary": {
+          "display_name": "Apiary",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "beyondthesun": {
+          "display_name": "Beyond the Sun",
+          "plays": 36,
+          "wins": 7,
+          "win_rate": 0.194
+        },
+        "terraformingmars": {
+          "display_name": "Terraforming Mars",
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "wingspan": {
+          "display_name": "Wingspan",
+          "plays": 4,
+          "wins": 3,
+          "win_rate": 0.75
+        },
+        "elgrande": {
+          "display_name": "El Grande",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "agricola": {
+          "display_name": "Agricola",
+          "plays": 19,
+          "wins": 7,
+          "win_rate": 0.368
+        },
+        "tzolkin": {
+          "display_name": "Tzolk'in",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "fromage": {
+          "display_name": "Fromage",
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "planetunknown": {
+          "display_name": "Planet Unknown",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kingsguild": {
+          "display_name": "The King's Guild",
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "carnegie": {
+          "display_name": "Carnegie",
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "arknova": {
+          "display_name": "Ark Nova",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "earth": {
+          "display_name": "Earth",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "marcopolo": {
+          "display_name": "The Voyages of Marco Polo",
+          "plays": 6,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "arnak": {
+          "display_name": "Lost Ruins of Arnak",
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "draftosaurus": {
+          "display_name": "Draftosaurus",
+          "plays": 11,
+          "wins": 3,
+          "win_rate": 0.273
+        },
+        "caverna": {
+          "display_name": "Caverna",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "takenoko": {
+          "display_name": "Takenoko",
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "stoneage": {
+          "display_name": "Stone Age",
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "chimerastation": {
+          "display_name": "Chimera Station",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "barenpark": {
+          "display_name": "B\u00e4renpark",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "barrage": {
+          "display_name": "Barrage",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "resarcana": {
+          "display_name": "Res Arcana",
+          "plays": 5,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "seasons": {
+          "display_name": "Seasons",
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "viticulture": {
+          "display_name": "Viticulture",
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "spacebase": {
+          "display_name": "Space Base",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "glow": {
+          "display_name": "Glow",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "bloodrage": {
+          "display_name": "Blood Rage",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "theisleofcats": {
+          "display_name": "The Isle of Cats",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "livingforest": {
+          "display_name": "Living Forest",
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "cubirds": {
+          "display_name": "CuBirds",
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "steamworks": {
+          "display_name": "Steam Works",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "faifo": {
+          "display_name": "Fai-fo",
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "parks": {
+          "display_name": "Parks",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "simplicity": {
+          "display_name": "Simplicity",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "fluxx": {
+          "display_name": "Fluxx",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "solarstorm": {
+          "display_name": "Solar Storm",
+          "plays": 3,
+          "wins": 3,
+          "win_rate": 1.0
+        },
+        "tranquility": {
+          "display_name": "Tranquility",
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "quetzal": {
+          "display_name": "Quetzal",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "troyes": {
+          "display_name": "Troyes",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "offtherails": {
+          "display_name": "Off the Rails",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "clansofcaledonia": {
+          "display_name": "Clans of Caledonia",
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "sevenwonders": {
+          "display_name": "7 Wonders",
+          "plays": 13,
+          "wins": 6,
+          "win_rate": 0.462
+        },
+        "sushigo": {
+          "display_name": "Sushi Go!",
+          "plays": 7,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kingdombuilder": {
+          "display_name": "Kingdom Builder",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "luckynumbers": {
+          "display_name": "Lucky Numbers",
+          "plays": 5,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "finity": {
+          "display_name": "Finity",
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "thebuilders": {
+          "display_name": "The Builders: Middle Ages",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "coloretto": {
+          "display_name": "Coloretto",
+          "plays": 6,
+          "wins": 1,
+          "win_rate": 0.167
+        },
+        "kingdomino": {
+          "display_name": "Kingdomino",
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "coltexpress": {
+          "display_name": "Colt Express",
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "raceforthegalaxy": {
+          "display_name": "Race for the Galaxy",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "saboteur": {
+          "display_name": "Saboteur",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "sechsnimmt": {
+          "display_name": "6 nimmt!",
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    }
+  },
+  "per_game": {
+    "Movers & Shakers": {
+      "game_id": "2525",
+      "play_count": 1,
+      "first_played": "11 Feb 2026",
+      "last_played": "11 Feb 2026",
+      "avg_duration_minutes": 116,
+      "per_player": {
+        "thomaspr": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "The Castles of Burgundy": {
+      "game_id": "1390",
+      "play_count": 26,
+      "first_played": "7 Jul 2021",
+      "last_played": "28 Jan 2026",
+      "avg_duration_minutes": 10164,
+      "per_player": {
+        "thomaspr": {
+          "plays": 26,
+          "wins": 11,
+          "win_rate": 0.423
+        },
+        "thepengineer": {
+          "plays": 20,
+          "wins": 6,
+          "win_rate": 0.3
+        },
+        "alice2": {
+          "plays": 26,
+          "wins": 3,
+          "win_rate": 0.115
+        },
+        "kristiah": {
+          "plays": 23,
+          "wins": 6,
+          "win_rate": 0.261
+        }
+      }
+    },
+    "Harmonies": {
+      "game_id": "2035",
+      "play_count": 5,
+      "first_played": "7 Jan 2026",
+      "last_played": "24 Jan 2026",
+      "avg_duration_minutes": 4364,
+      "per_player": {
+        "kristiah": {
+          "plays": 5,
+          "wins": 3,
+          "win_rate": 0.6
+        },
+        "alice2": {
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "thomaspr": {
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        }
+      }
+    },
+    "Potion Explosion": {
+      "game_id": "1175",
+      "play_count": 14,
+      "first_played": "15 Jul 2020",
+      "last_played": "9 Dec 2025",
+      "avg_duration_minutes": 2541,
+      "per_player": {
+        "alice2": {
+          "plays": 13,
+          "wins": 6,
+          "win_rate": 0.462
+        },
+        "thepengineer": {
+          "plays": 10,
+          "wins": 3,
+          "win_rate": 0.3
+        },
+        "kristiah": {
+          "plays": 14,
+          "wins": 1,
+          "win_rate": 0.071
+        },
+        "thomaspr": {
+          "plays": 14,
+          "wins": 4,
+          "win_rate": 0.286
+        }
+      }
+    },
+    "7 Wonders": {
+      "game_id": "1131",
+      "play_count": 30,
+      "first_played": "21 Mar 2020",
+      "last_played": "12 Nov 2025",
+      "avg_duration_minutes": 12,
+      "per_player": {
+        "thomaspr": {
+          "plays": 30,
+          "wins": 10,
+          "win_rate": 0.333
+        },
+        "kristiah": {
+          "plays": 28,
+          "wins": 7,
+          "win_rate": 0.25
+        },
+        "alice2": {
+          "plays": 30,
+          "wins": 3,
+          "win_rate": 0.1
+        },
+        "thepengineer": {
+          "plays": 13,
+          "wins": 6,
+          "win_rate": 0.462
+        }
+      }
+    },
+    "Bonsai": {
+      "game_id": "2096",
+      "play_count": 4,
+      "first_played": "8 Oct 2025",
+      "last_played": "12 Nov 2025",
+      "avg_duration_minutes": 11280,
+      "per_player": {
+        "kristiah": {
+          "plays": 4,
+          "wins": 3,
+          "win_rate": 0.75
+        },
+        "alice2": {
+          "plays": 4,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thepengineer": {
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thomaspr": {
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        }
+      }
+    },
+    "Pergola": {
+      "game_id": "2269",
+      "play_count": 4,
+      "first_played": "22 Oct 2025",
+      "last_played": "12 Nov 2025",
+      "avg_duration_minutes": 7269,
+      "per_player": {
+        "kristiah": {
+          "plays": 4,
+          "wins": 2,
+          "win_rate": 0.5
+        },
+        "thomaspr": {
+          "plays": 4,
+          "wins": 3,
+          "win_rate": 0.75
+        },
+        "alice2": {
+          "plays": 4,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Alhambra": {
+      "game_id": "7",
+      "play_count": 7,
+      "first_played": "20 Jan 2021",
+      "last_played": "8 Oct 2025",
+      "avg_duration_minutes": 12364,
+      "per_player": {
+        "thomaspr": {
+          "plays": 7,
+          "wins": 1,
+          "win_rate": 0.143
+        },
+        "alice2": {
+          "plays": 6,
+          "wins": 2,
+          "win_rate": 0.333
+        },
+        "kristiah": {
+          "plays": 7,
+          "wins": 4,
+          "win_rate": 0.571
+        },
+        "thepengineer": {
+          "plays": 5,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Great Western Trail": {
+      "game_id": "1432",
+      "play_count": 18,
+      "first_played": "17 Aug 2022",
+      "last_played": "20 Aug 2025",
+      "avg_duration_minutes": 20036,
+      "per_player": {
+        "kristiah": {
+          "plays": 18,
+          "wins": 8,
+          "win_rate": 0.444
+        },
+        "thomaspr": {
+          "plays": 18,
+          "wins": 5,
+          "win_rate": 0.278
+        },
+        "alice2": {
+          "plays": 18,
+          "wins": 3,
+          "win_rate": 0.167
+        },
+        "thepengineer": {
+          "plays": 17,
+          "wins": 2,
+          "win_rate": 0.118
+        }
+      }
+    },
+    "Tiny Towns": {
+      "game_id": "2243",
+      "play_count": 1,
+      "first_played": "20 Aug 2025",
+      "last_played": "20 Aug 2025",
+      "avg_duration_minutes": 53,
+      "per_player": {
+        "alice2": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Castles of Mad King Ludwig": {
+      "game_id": "2369",
+      "play_count": 2,
+      "first_played": "13 Aug 2025",
+      "last_played": "20 Aug 2025",
+      "avg_duration_minutes": 5069,
+      "per_player": {
+        "alice2": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "kristiah": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thomaspr": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        }
+      }
+    },
+    "Apiary": {
+      "game_id": "2352",
+      "play_count": 1,
+      "first_played": "25 Jul 2025",
+      "last_played": "25 Jul 2025",
+      "avg_duration_minutes": 12664,
+      "per_player": {
+        "thepengineer": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Beyond the Sun": {
+      "game_id": "1378",
+      "play_count": 42,
+      "first_played": "21 Apr 2021",
+      "last_played": "16 Jul 2025",
+      "avg_duration_minutes": 9947,
+      "per_player": {
+        "thomaspr": {
+          "plays": 42,
+          "wins": 12,
+          "win_rate": 0.286
+        },
+        "kristiah": {
+          "plays": 40,
+          "wins": 15,
+          "win_rate": 0.375
+        },
+        "alice2": {
+          "plays": 41,
+          "wins": 8,
+          "win_rate": 0.195
+        },
+        "thepengineer": {
+          "plays": 36,
+          "wins": 7,
+          "win_rate": 0.194
+        }
+      }
+    },
+    "Four Gardens": {
+      "game_id": "1967",
+      "play_count": 1,
+      "first_played": "11 Jun 2025",
+      "last_played": "11 Jun 2025",
+      "avg_duration_minutes": 84,
+      "per_player": {
+        "thomaspr": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "The White Castle": {
+      "game_id": "2242",
+      "play_count": 3,
+      "first_played": "21 May 2025",
+      "last_played": "4 Jun 2025",
+      "avg_duration_minutes": 3743,
+      "per_player": {
+        "alice2": {
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "thomaspr": {
+          "plays": 3,
+          "wins": 2,
+          "win_rate": 0.667
+        },
+        "kristiah": {
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Terraforming Mars": {
+      "game_id": "1924",
+      "play_count": 6,
+      "first_played": "27 Mar 2024",
+      "last_played": "24 Apr 2025",
+      "avg_duration_minutes": 16779,
+      "per_player": {
+        "thomaspr": {
+          "plays": 6,
+          "wins": 2,
+          "win_rate": 0.333
+        },
+        "thepengineer": {
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "alice2": {
+          "plays": 6,
+          "wins": 2,
+          "win_rate": 0.333
+        },
+        "kristiah": {
+          "plays": 6,
+          "wins": 1,
+          "win_rate": 0.167
+        }
+      }
+    },
+    "Crafting the Cosmos": {
+      "game_id": "2252",
+      "play_count": 2,
+      "first_played": "11 Apr 2025",
+      "last_played": "13 Apr 2025",
+      "avg_duration_minutes": 2177,
+      "per_player": {
+        "kristiah": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "alice2": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "thomaspr": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Cosmoctopus": {
+      "game_id": "2091",
+      "play_count": 4,
+      "first_played": "20 Nov 2024",
+      "last_played": "12 Mar 2025",
+      "avg_duration_minutes": 6041,
+      "per_player": {
+        "alice2": {
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "thomaspr": {
+          "plays": 4,
+          "wins": 3,
+          "win_rate": 0.75
+        },
+        "kristiah": {
+          "plays": 4,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Wingspan": {
+      "game_id": "1635",
+      "play_count": 5,
+      "first_played": "28 Sep 2022",
+      "last_played": "19 Feb 2025",
+      "avg_duration_minutes": 13639,
+      "per_player": {
+        "thepengineer": {
+          "plays": 4,
+          "wins": 3,
+          "win_rate": 0.75
+        },
+        "kristiah": {
+          "plays": 4,
+          "wins": 2,
+          "win_rate": 0.5
+        },
+        "thomaspr": {
+          "plays": 5,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 5,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "El Grande": {
+      "game_id": "1292",
+      "play_count": 1,
+      "first_played": "27 Jan 2025",
+      "last_played": "27 Jan 2025",
+      "avg_duration_minutes": 7036,
+      "per_player": {
+        "kristiah": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Age of Innovation: a Terra Mystica game": {
+      "game_id": "1249",
+      "play_count": 1,
+      "first_played": "21 Dec 2024",
+      "last_played": "21 Dec 2024",
+      "avg_duration_minutes": 24407,
+      "per_player": {
+        "thomaspr": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Agricola": {
+      "game_id": "1430",
+      "play_count": 19,
+      "first_played": "28 Jul 2021",
+      "last_played": "14 Dec 2024",
+      "avg_duration_minutes": 12073,
+      "per_player": {
+        "thomaspr": {
+          "plays": 19,
+          "wins": 4,
+          "win_rate": 0.211
+        },
+        "kristiah": {
+          "plays": 19,
+          "wins": 7,
+          "win_rate": 0.368
+        },
+        "alice2": {
+          "plays": 19,
+          "wins": 1,
+          "win_rate": 0.053
+        },
+        "thepengineer": {
+          "plays": 19,
+          "wins": 7,
+          "win_rate": 0.368
+        }
+      }
+    },
+    "Tzolk'in": {
+      "game_id": "80",
+      "play_count": 4,
+      "first_played": "3 Jun 2020",
+      "last_played": "8 Aug 2024",
+      "avg_duration_minutes": 2098,
+      "per_player": {
+        "thomaspr": {
+          "plays": 4,
+          "wins": 2,
+          "win_rate": 0.5
+        },
+        "alice2": {
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "kristiah": {
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "thepengineer": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Gaia Project": {
+      "game_id": "1495",
+      "play_count": 1,
+      "first_played": "9 Jul 2024",
+      "last_played": "9 Jul 2024",
+      "avg_duration_minutes": 8236,
+      "per_player": {
+        "thomaspr": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Seasons": {
+      "game_id": "30",
+      "play_count": 5,
+      "first_played": "14 Jul 2020",
+      "last_played": "19 Jun 2024",
+      "avg_duration_minutes": 4124,
+      "per_player": {
+        "thomaspr": {
+          "plays": 5,
+          "wins": 2,
+          "win_rate": 0.4
+        },
+        "alice2": {
+          "plays": 5,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 4,
+          "wins": 2,
+          "win_rate": 0.5
+        },
+        "thepengineer": {
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        }
+      }
+    },
+    "Space Base": {
+      "game_id": "1428",
+      "play_count": 9,
+      "first_played": "6 Apr 2022",
+      "last_played": "5 Jun 2024",
+      "avg_duration_minutes": 36,
+      "per_player": {
+        "thomaspr": {
+          "plays": 9,
+          "wins": 4,
+          "win_rate": 0.444
+        },
+        "kristiah": {
+          "plays": 9,
+          "wins": 2,
+          "win_rate": 0.222
+        },
+        "alice2": {
+          "plays": 9,
+          "wins": 3,
+          "win_rate": 0.333
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Pax Renaissance": {
+      "game_id": "1910",
+      "play_count": 1,
+      "first_played": "5 Jun 2024",
+      "last_played": "5 Jun 2024",
+      "avg_duration_minutes": 10045,
+      "per_player": {
+        "kristiah": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Fromage": {
+      "game_id": "1997",
+      "play_count": 3,
+      "first_played": "24 Apr 2024",
+      "last_played": "1 May 2024",
+      "avg_duration_minutes": 35,
+      "per_player": {
+        "thomaspr": {
+          "plays": 3,
+          "wins": 3,
+          "win_rate": 1.0
+        },
+        "alice2": {
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thepengineer": {
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Looot": {
+      "game_id": "1957",
+      "play_count": 1,
+      "first_played": "10 Apr 2024",
+      "last_played": "10 Apr 2024",
+      "avg_duration_minutes": 58,
+      "per_player": {
+        "thomaspr": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Praga Caput Regni": {
+      "game_id": "1851",
+      "play_count": 1,
+      "first_played": "23 Feb 2024",
+      "last_played": "23 Feb 2024",
+      "avg_duration_minutes": 2779,
+      "per_player": {
+        "thomaspr": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Planet Unknown": {
+      "game_id": "1891",
+      "play_count": 2,
+      "first_played": "7 Feb 2024",
+      "last_played": "15 Feb 2024",
+      "avg_duration_minutes": 74,
+      "per_player": {
+        "kristiah": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "thomaspr": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "alice2": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "The King's Guild": {
+      "game_id": "1147",
+      "play_count": 3,
+      "first_played": "13 Jan 2021",
+      "last_played": "29 Jan 2024",
+      "avg_duration_minutes": 6948,
+      "per_player": {
+        "alice2": {
+          "plays": 3,
+          "wins": 2,
+          "win_rate": 0.667
+        },
+        "thepengineer": {
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thomaspr": {
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "kristiah": {
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "The Wolves": {
+      "game_id": "1901",
+      "play_count": 1,
+      "first_played": "17 Jan 2024",
+      "last_played": "17 Jan 2024",
+      "avg_duration_minutes": 95,
+      "per_player": {
+        "kristiah": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "After Us": {
+      "game_id": "1792",
+      "play_count": 3,
+      "first_played": "13 Sep 2023",
+      "last_played": "10 Jan 2024",
+      "avg_duration_minutes": 31,
+      "per_player": {
+        "thomaspr": {
+          "plays": 3,
+          "wins": 2,
+          "win_rate": 0.667
+        },
+        "alice2": {
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        }
+      }
+    },
+    "Clans of Caledonia": {
+      "game_id": "1143",
+      "play_count": 4,
+      "first_played": "19 Aug 2020",
+      "last_played": "20 Nov 2023",
+      "avg_duration_minutes": 1806,
+      "per_player": {
+        "kristiah": {
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "alice2": {
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "thomaspr": {
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "thepengineer": {
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        }
+      }
+    },
+    "Amalfi - Renaissance": {
+      "game_id": "1853",
+      "play_count": 1,
+      "first_played": "6 Nov 2023",
+      "last_played": "6 Nov 2023",
+      "avg_duration_minutes": 6863,
+      "per_player": {
+        "thomaspr": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Carnegie": {
+      "game_id": "1287",
+      "play_count": 4,
+      "first_played": "12 Aug 2021",
+      "last_played": "25 Oct 2023",
+      "avg_duration_minutes": 16616,
+      "per_player": {
+        "kristiah": {
+          "plays": 4,
+          "wins": 2,
+          "win_rate": 0.5
+        },
+        "thepengineer": {
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "thomaspr": {
+          "plays": 4,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        }
+      }
+    },
+    "The Gnomes of Zavandor": {
+      "game_id": "1672",
+      "play_count": 2,
+      "first_played": "30 Aug 2023",
+      "last_played": "18 Oct 2023",
+      "avg_duration_minutes": 75,
+      "per_player": {
+        "thomaspr": {
+          "plays": 2,
+          "wins": 2,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Humanity": {
+      "game_id": "1849",
+      "play_count": 1,
+      "first_played": "6 Sep 2023",
+      "last_played": "6 Sep 2023",
+      "avg_duration_minutes": 69,
+      "per_player": {
+        "alice2": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Canvas": {
+      "game_id": "1833",
+      "play_count": 2,
+      "first_played": "23 Aug 2023",
+      "last_played": "23 Aug 2023",
+      "avg_duration_minutes": 27,
+      "per_player": {
+        "thomaspr": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "kristiah": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "alice2": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Ark Nova": {
+      "game_id": "1741",
+      "play_count": 2,
+      "first_played": "20 Jul 2023",
+      "last_played": "9 Aug 2023",
+      "avg_duration_minutes": 31216,
+      "per_player": {
+        "thepengineer": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "alice2": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "thomaspr": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Mech A Dream": {
+      "game_id": "1693",
+      "play_count": 1,
+      "first_played": "2 Aug 2023",
+      "last_played": "2 Aug 2023",
+      "avg_duration_minutes": 30,
+      "per_player": {
+        "alice2": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Expeditions: Around the World": {
+      "game_id": "1794",
+      "play_count": 2,
+      "first_played": "2 Aug 2023",
+      "last_played": "2 Aug 2023",
+      "avg_duration_minutes": 32,
+      "per_player": {
+        "thomaspr": {
+          "plays": 2,
+          "wins": 2,
+          "win_rate": 1.0
+        },
+        "alice2": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Obsession": {
+      "game_id": "1640",
+      "play_count": 1,
+      "first_played": "19 Jul 2023",
+      "last_played": "19 Jul 2023",
+      "avg_duration_minutes": 89,
+      "per_player": {
+        "alice2": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Bunny Kingdom": {
+      "game_id": "1747",
+      "play_count": 2,
+      "first_played": "5 Jul 2023",
+      "last_played": "5 Jul 2023",
+      "avg_duration_minutes": 28,
+      "per_player": {
+        "thomaspr": {
+          "plays": 2,
+          "wins": 2,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Earth": {
+      "game_id": "1708",
+      "play_count": 2,
+      "first_played": "11 Apr 2023",
+      "last_played": "3 May 2023",
+      "avg_duration_minutes": 20078,
+      "per_player": {
+        "thomaspr": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "thepengineer": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "alice2": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Tiwanaku": {
+      "game_id": "1674",
+      "play_count": 2,
+      "first_played": "19 Apr 2023",
+      "last_played": "19 Apr 2023",
+      "avg_duration_minutes": 34,
+      "per_player": {
+        "alice2": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "thomaspr": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "kristiah": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "The Voyages of Marco Polo": {
+      "game_id": "1200",
+      "play_count": 6,
+      "first_played": "11 May 2022",
+      "last_played": "5 Apr 2023",
+      "avg_duration_minutes": 8367,
+      "per_player": {
+        "alice2": {
+          "plays": 6,
+          "wins": 2,
+          "win_rate": 0.333
+        },
+        "thepengineer": {
+          "plays": 6,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thomaspr": {
+          "plays": 6,
+          "wins": 3,
+          "win_rate": 0.5
+        },
+        "kristiah": {
+          "plays": 6,
+          "wins": 1,
+          "win_rate": 0.167
+        }
+      }
+    },
+    "Jaipur": {
+      "game_id": "33",
+      "play_count": 1,
+      "first_played": "29 Mar 2023",
+      "last_played": "29 Mar 2023",
+      "avg_duration_minutes": 16,
+      "per_player": {
+        "alice2": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "boop.": {
+      "game_id": "1736",
+      "play_count": 2,
+      "first_played": "29 Mar 2023",
+      "last_played": "29 Mar 2023",
+      "avg_duration_minutes": 14,
+      "per_player": {
+        "alice2": {
+          "plays": 2,
+          "wins": 2,
+          "win_rate": 1.0
+        },
+        "thomaspr": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Lost Ruins of Arnak": {
+      "game_id": "1382",
+      "play_count": 4,
+      "first_played": "5 May 2021",
+      "last_played": "8 Mar 2023",
+      "avg_duration_minutes": 2591,
+      "per_player": {
+        "thepengineer": {
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "kristiah": {
+          "plays": 4,
+          "wins": 2,
+          "win_rate": 0.5
+        },
+        "thomaspr": {
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "alice2": {
+          "plays": 4,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "CuBirds": {
+      "game_id": "1210",
+      "play_count": 9,
+      "first_played": "5 Apr 2021",
+      "last_played": "15 Feb 2023",
+      "avg_duration_minutes": 17,
+      "per_player": {
+        "alice2": {
+          "plays": 9,
+          "wins": 2,
+          "win_rate": 0.222
+        },
+        "thomaspr": {
+          "plays": 9,
+          "wins": 4,
+          "win_rate": 0.444
+        },
+        "kristiah": {
+          "plays": 9,
+          "wins": 1,
+          "win_rate": 0.111
+        },
+        "thepengineer": {
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        }
+      }
+    },
+    "Cubosaurs": {
+      "game_id": "1690",
+      "play_count": 2,
+      "first_played": "1 Feb 2023",
+      "last_played": "1 Feb 2023",
+      "avg_duration_minutes": 19,
+      "per_player": {
+        "kristiah": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "thomaspr": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "alice2": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Draftosaurus": {
+      "game_id": "1310",
+      "play_count": 15,
+      "first_played": "3 Feb 2021",
+      "last_played": "1 Feb 2023",
+      "avg_duration_minutes": 297,
+      "per_player": {
+        "kristiah": {
+          "plays": 15,
+          "wins": 5,
+          "win_rate": 0.333
+        },
+        "thomaspr": {
+          "plays": 15,
+          "wins": 3,
+          "win_rate": 0.2
+        },
+        "alice2": {
+          "plays": 15,
+          "wins": 4,
+          "win_rate": 0.267
+        },
+        "thepengineer": {
+          "plays": 11,
+          "wins": 3,
+          "win_rate": 0.273
+        }
+      }
+    },
+    "Rauha": {
+      "game_id": "1704",
+      "play_count": 3,
+      "first_played": "11 Jan 2023",
+      "last_played": "18 Jan 2023",
+      "avg_duration_minutes": 36,
+      "per_player": {
+        "thomaspr": {
+          "plays": 3,
+          "wins": 2,
+          "win_rate": 0.667
+        },
+        "alice2": {
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        }
+      }
+    },
+    "Chicago Express": {
+      "game_id": "1345",
+      "play_count": 1,
+      "first_played": "14 Dec 2022",
+      "last_played": "14 Dec 2022",
+      "avg_duration_minutes": 64,
+      "per_player": {
+        "thomaspr": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Caverna": {
+      "game_id": "1664",
+      "play_count": 1,
+      "first_played": "9 Nov 2022",
+      "last_played": "9 Nov 2022",
+      "avg_duration_minutes": 10108,
+      "per_player": {
+        "alice2": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Takenoko": {
+      "game_id": "37",
+      "play_count": 6,
+      "first_played": "13 May 2020",
+      "last_played": "3 Oct 2022",
+      "avg_duration_minutes": 1220,
+      "per_player": {
+        "alice2": {
+          "plays": 5,
+          "wins": 2,
+          "win_rate": 0.4
+        },
+        "thomaspr": {
+          "plays": 6,
+          "wins": 2,
+          "win_rate": 0.333
+        },
+        "thepengineer": {
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "kristiah": {
+          "plays": 5,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Stone Age": {
+      "game_id": "13",
+      "play_count": 4,
+      "first_played": "14 Oct 2020",
+      "last_played": "7 Sep 2022",
+      "avg_duration_minutes": 7495,
+      "per_player": {
+        "thepengineer": {
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "thomaspr": {
+          "plays": 4,
+          "wins": 3,
+          "win_rate": 0.75
+        },
+        "kristiah": {
+          "plays": 4,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 4,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Chimera Station": {
+      "game_id": "1522",
+      "play_count": 1,
+      "first_played": "24 Aug 2022",
+      "last_played": "24 Aug 2022",
+      "avg_duration_minutes": 97,
+      "per_player": {
+        "thomaspr": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "B\u00e4renpark": {
+      "game_id": "1585",
+      "play_count": 1,
+      "first_played": "3 Aug 2022",
+      "last_played": "3 Aug 2022",
+      "avg_duration_minutes": 8723,
+      "per_player": {
+        "alice2": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Barrage": {
+      "game_id": "1603",
+      "play_count": 1,
+      "first_played": "27 Jul 2022",
+      "last_played": "27 Jul 2022",
+      "avg_duration_minutes": 8549,
+      "per_player": {
+        "thomaspr": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Res Arcana": {
+      "game_id": "1309",
+      "play_count": 5,
+      "first_played": "3 Feb 2021",
+      "last_played": "27 Jul 2022",
+      "avg_duration_minutes": 6231,
+      "per_player": {
+        "alice2": {
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "thomaspr": {
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "kristiah": {
+          "plays": 5,
+          "wins": 3,
+          "win_rate": 0.6
+        },
+        "thepengineer": {
+          "plays": 5,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "CATAN": {
+      "game_id": "1539",
+      "play_count": 1,
+      "first_played": "29 Jun 2022",
+      "last_played": "29 Jun 2022",
+      "avg_duration_minutes": 60,
+      "per_player": {
+        "thomaspr": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Coloretto": {
+      "game_id": "2",
+      "play_count": 11,
+      "first_played": "13 May 2020",
+      "last_played": "22 Jun 2022",
+      "avg_duration_minutes": 16,
+      "per_player": {
+        "alice2": {
+          "plays": 10,
+          "wins": 2,
+          "win_rate": 0.2
+        },
+        "thomaspr": {
+          "plays": 11,
+          "wins": 5,
+          "win_rate": 0.455
+        },
+        "kristiah": {
+          "plays": 11,
+          "wins": 2,
+          "win_rate": 0.182
+        },
+        "thepengineer": {
+          "plays": 6,
+          "wins": 1,
+          "win_rate": 0.167
+        }
+      }
+    },
+    "Living Forest": {
+      "game_id": "1509",
+      "play_count": 5,
+      "first_played": "26 Jan 2022",
+      "last_played": "22 Jun 2022",
+      "avg_duration_minutes": 30,
+      "per_player": {
+        "alice2": {
+          "plays": 5,
+          "wins": 3,
+          "win_rate": 0.6
+        },
+        "thomaspr": {
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "kristiah": {
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "thepengineer": {
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        }
+      }
+    },
+    "Viticulture": {
+      "game_id": "1384",
+      "play_count": 3,
+      "first_played": "23 Jun 2021",
+      "last_played": "18 May 2022",
+      "avg_duration_minutes": 6756,
+      "per_player": {
+        "thepengineer": {
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "thomaspr": {
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        },
+        "alice2": {
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        }
+      }
+    },
+    "Glow": {
+      "game_id": "1497",
+      "play_count": 2,
+      "first_played": "2 Mar 2022",
+      "last_played": "2 Mar 2022",
+      "avg_duration_minutes": 28,
+      "per_player": {
+        "thepengineer": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "alice2": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "thomaspr": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Blood Rage": {
+      "game_id": "1521",
+      "play_count": 2,
+      "first_played": "19 Feb 2022",
+      "last_played": "19 Feb 2022",
+      "avg_duration_minutes": 99,
+      "per_player": {
+        "alice2": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "kristiah": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "thomaspr": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "thepengineer": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "The Isle of Cats": {
+      "game_id": "1492",
+      "play_count": 1,
+      "first_played": "16 Feb 2022",
+      "last_played": "16 Feb 2022",
+      "avg_duration_minutes": 10087,
+      "per_player": {
+        "thomaspr": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "A Feast for Odin": {
+      "game_id": "1482",
+      "play_count": 1,
+      "first_played": "27 Jan 2022",
+      "last_played": "27 Jan 2022",
+      "avg_duration_minutes": 7483,
+      "per_player": {
+        "thomaspr": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Art Decko": {
+      "game_id": "1469",
+      "play_count": 2,
+      "first_played": "19 Jan 2022",
+      "last_played": "19 Jan 2022",
+      "avg_duration_minutes": 48,
+      "per_player": {
+        "kristiah": {
+          "plays": 2,
+          "wins": 2,
+          "win_rate": 1.0
+        },
+        "alice2": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thomaspr": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Spot it": {
+      "game_id": "1468",
+      "play_count": 1,
+      "first_played": "19 Jan 2022",
+      "last_played": "19 Jan 2022",
+      "avg_duration_minutes": 4,
+      "per_player": {
+        "alice2": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Tapestry": {
+      "game_id": "1446",
+      "play_count": 1,
+      "first_played": "12 Jan 2022",
+      "last_played": "12 Jan 2022",
+      "avg_duration_minutes": 98,
+      "per_player": {
+        "kristiah": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Steam Works": {
+      "game_id": "1234",
+      "play_count": 1,
+      "first_played": "8 Dec 2021",
+      "last_played": "8 Dec 2021",
+      "avg_duration_minutes": 30105,
+      "per_player": {
+        "thomaspr": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Fai-fo": {
+      "game_id": "1435",
+      "play_count": 2,
+      "first_played": "13 Oct 2021",
+      "last_played": "13 Oct 2021",
+      "avg_duration_minutes": 11,
+      "per_player": {
+        "kristiah": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "thomaspr": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "alice2": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thepengineer": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Parks": {
+      "game_id": "1479",
+      "play_count": 1,
+      "first_played": "6 Oct 2021",
+      "last_played": "6 Oct 2021",
+      "avg_duration_minutes": 9711,
+      "per_player": {
+        "alice2": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Simplicity": {
+      "game_id": "1473",
+      "play_count": 2,
+      "first_played": "15 Sep 2021",
+      "last_played": "15 Sep 2021",
+      "avg_duration_minutes": 15,
+      "per_player": {
+        "thepengineer": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "thomaspr": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "kristiah": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Abandon All Artichokes": {
+      "game_id": "1426",
+      "play_count": 2,
+      "first_played": "30 Jun 2021",
+      "last_played": "30 Jun 2021",
+      "avg_duration_minutes": 10,
+      "per_player": {
+        "alice2": {
+          "plays": 2,
+          "wins": 2,
+          "win_rate": 1.0
+        },
+        "thomaspr": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Fluxx": {
+      "game_id": "1336",
+      "play_count": 1,
+      "first_played": "2 Jun 2021",
+      "last_played": "2 Jun 2021",
+      "avg_duration_minutes": 18,
+      "per_player": {
+        "thomaspr": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Solar Storm": {
+      "game_id": "1244",
+      "play_count": 3,
+      "first_played": "12 May 2021",
+      "last_played": "12 May 2021",
+      "avg_duration_minutes": 35,
+      "per_player": {
+        "thepengineer": {
+          "plays": 3,
+          "wins": 3,
+          "win_rate": 1.0
+        },
+        "alice2": {
+          "plays": 3,
+          "wins": 3,
+          "win_rate": 1.0
+        },
+        "thomaspr": {
+          "plays": 3,
+          "wins": 3,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 3,
+          "wins": 3,
+          "win_rate": 1.0
+        }
+      }
+    },
+    "Tranquility": {
+      "game_id": "1340",
+      "play_count": 1,
+      "first_played": "28 Apr 2021",
+      "last_played": "28 Apr 2021",
+      "avg_duration_minutes": 14,
+      "per_player": {
+        "kristiah": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        }
+      }
+    },
+    "Quetzal": {
+      "game_id": "1247",
+      "play_count": 1,
+      "first_played": "3 Mar 2021",
+      "last_played": "3 Mar 2021",
+      "avg_duration_minutes": 64,
+      "per_player": {
+        "kristiah": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Troyes": {
+      "game_id": "20",
+      "play_count": 1,
+      "first_played": "10 Feb 2021",
+      "last_played": "10 Feb 2021",
+      "avg_duration_minutes": 71,
+      "per_player": {
+        "alice2": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Off the Rails": {
+      "game_id": "1223",
+      "play_count": 1,
+      "first_played": "20 Jan 2021",
+      "last_played": "20 Jan 2021",
+      "avg_duration_minutes": 41,
+      "per_player": {
+        "alice2": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Sushi Go!": {
+      "game_id": "1167",
+      "play_count": 8,
+      "first_played": "23 Mar 2020",
+      "last_played": "27 Oct 2020",
+      "avg_duration_minutes": 8,
+      "per_player": {
+        "thomaspr": {
+          "plays": 8,
+          "wins": 3,
+          "win_rate": 0.375
+        },
+        "alice2": {
+          "plays": 7,
+          "wins": 2,
+          "win_rate": 0.286
+        },
+        "thepengineer": {
+          "plays": 7,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        }
+      }
+    },
+    "6 nimmt!": {
+      "game_id": "1008",
+      "play_count": 8,
+      "first_played": "17 Mar 2020",
+      "last_played": "22 Oct 2020",
+      "avg_duration_minutes": 26,
+      "per_player": {
+        "thomaspr": {
+          "plays": 8,
+          "wins": 3,
+          "win_rate": 0.375
+        },
+        "alice2": {
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "kristiah": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Kingdom Builder": {
+      "game_id": "1225",
+      "play_count": 1,
+      "first_played": "13 Oct 2020",
+      "last_played": "13 Oct 2020",
+      "avg_duration_minutes": 54,
+      "per_player": {
+        "kristiah": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Lucky Numbers": {
+      "game_id": "1204",
+      "play_count": 5,
+      "first_played": "8 Sep 2020",
+      "last_played": "16 Sep 2020",
+      "avg_duration_minutes": 12,
+      "per_player": {
+        "thomaspr": {
+          "plays": 5,
+          "wins": 2,
+          "win_rate": 0.4
+        },
+        "thepengineer": {
+          "plays": 5,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "alice2": {
+          "plays": 5,
+          "wins": 2,
+          "win_rate": 0.4
+        },
+        "kristiah": {
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        }
+      }
+    },
+    "Finity": {
+      "game_id": "1160",
+      "play_count": 2,
+      "first_played": "11 Aug 2020",
+      "last_played": "16 Sep 2020",
+      "avg_duration_minutes": 50,
+      "per_player": {
+        "kristiah": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "thomaspr": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thepengineer": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        },
+        "alice2": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "The Builders: Middle Ages": {
+      "game_id": "1103",
+      "play_count": 1,
+      "first_played": "9 Sep 2020",
+      "last_played": "9 Sep 2020",
+      "avg_duration_minutes": 36,
+      "per_player": {
+        "alice2": {
+          "plays": 1,
+          "wins": 1,
+          "win_rate": 1.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Kingdomino": {
+      "game_id": "1148",
+      "play_count": 5,
+      "first_played": "10 Jun 2020",
+      "last_played": "4 Aug 2020",
+      "avg_duration_minutes": 16,
+      "per_player": {
+        "alice2": {
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "thomaspr": {
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "kristiah": {
+          "plays": 5,
+          "wins": 2,
+          "win_rate": 0.4
+        },
+        "thepengineer": {
+          "plays": 3,
+          "wins": 1,
+          "win_rate": 0.333
+        }
+      }
+    },
+    "The Builders: Antiquity": {
+      "game_id": "1135",
+      "play_count": 2,
+      "first_played": "29 Jul 2020",
+      "last_played": "29 Jul 2020",
+      "avg_duration_minutes": 37,
+      "per_player": {
+        "alice2": {
+          "plays": 2,
+          "wins": 2,
+          "win_rate": 1.0
+        },
+        "kristiah": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thomaspr": {
+          "plays": 2,
+          "wins": 1,
+          "win_rate": 0.5
+        }
+      }
+    },
+    "Colt Express": {
+      "game_id": "1025",
+      "play_count": 4,
+      "first_played": "5 May 2020",
+      "last_played": "12 Jul 2020",
+      "avg_duration_minutes": 29,
+      "per_player": {
+        "kristiah": {
+          "plays": 4,
+          "wins": 2,
+          "win_rate": 0.5
+        },
+        "thomaspr": {
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "alice2": {
+          "plays": 4,
+          "wins": 1,
+          "win_rate": 0.25
+        },
+        "thepengineer": {
+          "plays": 3,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Race for the Galaxy": {
+      "game_id": "10",
+      "play_count": 5,
+      "first_played": "10 Jun 2020",
+      "last_played": "1 Jul 2020",
+      "avg_duration_minutes": 32,
+      "per_player": {
+        "thomaspr": {
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "kristiah": {
+          "plays": 5,
+          "wins": 1,
+          "win_rate": 0.2
+        },
+        "alice2": {
+          "plays": 5,
+          "wins": 2,
+          "win_rate": 0.4
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Saboteur": {
+      "game_id": "24",
+      "play_count": 2,
+      "first_played": "13 Mar 2020",
+      "last_played": "8 May 2020",
+      "avg_duration_minutes": 46,
+      "per_player": {
+        "alice2": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thepengineer": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thomaspr": {
+          "plays": 2,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    },
+    "Carcassonne": {
+      "game_id": "1",
+      "play_count": 1,
+      "first_played": "14 Apr 2020",
+      "last_played": "14 Apr 2020",
+      "avg_duration_minutes": 45,
+      "per_player": {
+        "kristiah": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        },
+        "thomaspr": {
+          "plays": 1,
+          "wins": 0,
+          "win_rate": 0.0
+        }
+      }
+    }
+  },
+  "per_year": {
+    "2020": {
+      "total_games": 94,
+      "most_played_game": "7 Wonders",
+      "per_player": {
+        "kristiah": {
+          "games_played": 81,
+          "wins": 18,
+          "win_rate": 0.222,
+          "avg_rank": 2.54
+        },
+        "thepengineer": {
+          "games_played": 54,
+          "wins": 11,
+          "win_rate": 0.204,
+          "avg_rank": 2.74
+        },
+        "thomaspr": {
+          "games_played": 94,
+          "wins": 30,
+          "win_rate": 0.319,
+          "avg_rank": 2.43
+        },
+        "alice2": {
+          "games_played": 84,
+          "wins": 20,
+          "win_rate": 0.238,
+          "avg_rank": 2.5
+        }
+      },
+      "per_game": {
+        "7 Wonders": 24,
+        "Coloretto": 10,
+        "Sushi Go!": 8,
+        "6 nimmt!": 8,
+        "Lucky Numbers": 5,
+        "Kingdomino": 5,
+        "Race for the Galaxy": 5,
+        "Potion Explosion": 4,
+        "Colt Express": 4,
+        "Takenoko": 4,
+        "Seasons": 3,
+        "Finity": 2,
+        "Clans of Caledonia": 2,
+        "The Builders: Antiquity": 2,
+        "Tzolk'in": 2,
+        "Saboteur": 2,
+        "Stone Age": 1,
+        "Kingdom Builder": 1,
+        "The Builders: Middle Ages": 1,
+        "Carcassonne": 1
+      }
+    },
+    "2021": {
+      "total_games": 71,
+      "most_played_game": "Draftosaurus",
+      "per_player": {
+        "kristiah": {
+          "games_played": 70,
+          "wins": 27,
+          "win_rate": 0.386,
+          "avg_rank": 2.07
+        },
+        "thomaspr": {
+          "games_played": 71,
+          "wins": 21,
+          "win_rate": 0.296,
+          "avg_rank": 2.27
+        },
+        "alice2": {
+          "games_played": 71,
+          "wins": 21,
+          "win_rate": 0.296,
+          "avg_rank": 2.28
+        },
+        "thepengineer": {
+          "games_played": 59,
+          "wins": 13,
+          "win_rate": 0.22,
+          "avg_rank": 2.53
+        }
+      },
+      "per_game": {
+        "Draftosaurus": 12,
+        "Beyond the Sun": 8,
+        "The Castles of Burgundy": 6,
+        "Agricola": 5,
+        "CuBirds": 5,
+        "Potion Explosion": 3,
+        "Alhambra": 3,
+        "Lost Ruins of Arnak": 3,
+        "Solar Storm": 3,
+        "Fai-fo": 2,
+        "Simplicity": 2,
+        "Carnegie": 2,
+        "Abandon All Artichokes": 2,
+        "The King's Guild": 2,
+        "Res Arcana": 2,
+        "Steam Works": 1,
+        "Takenoko": 1,
+        "Stone Age": 1,
+        "Parks": 1,
+        "Viticulture": 1,
+        "Fluxx": 1,
+        "Tranquility": 1,
+        "Quetzal": 1,
+        "Troyes": 1,
+        "Off the Rails": 1,
+        "Clans of Caledonia": 1
+      }
+    },
+    "2022": {
+      "total_games": 78,
+      "most_played_game": "Beyond the Sun",
+      "per_player": {
+        "thepengineer": {
+          "games_played": 57,
+          "wins": 18,
+          "win_rate": 0.316,
+          "avg_rank": 2.54
+        },
+        "thomaspr": {
+          "games_played": 78,
+          "wins": 24,
+          "win_rate": 0.308,
+          "avg_rank": 2.27
+        },
+        "alice2": {
+          "games_played": 76,
+          "wins": 18,
+          "win_rate": 0.237,
+          "avg_rank": 2.21
+        },
+        "kristiah": {
+          "games_played": 73,
+          "wins": 21,
+          "win_rate": 0.288,
+          "avg_rank": 2.3
+        }
+      },
+      "per_game": {
+        "Beyond the Sun": 12,
+        "Agricola": 9,
+        "The Castles of Burgundy": 6,
+        "Great Western Trail": 5,
+        "Living Forest": 5,
+        "Wingspan": 3,
+        "Res Arcana": 3,
+        "Space Base": 3,
+        "The Voyages of Marco Polo": 3,
+        "Stone Age": 2,
+        "Viticulture": 2,
+        "7 Wonders": 2,
+        "CuBirds": 2,
+        "Glow": 2,
+        "Blood Rage": 2,
+        "Art Decko": 2,
+        "Chicago Express": 1,
+        "Draftosaurus": 1,
+        "Caverna": 1,
+        "Takenoko": 1,
+        "Chimera Station": 1,
+        "B\u00e4renpark": 1,
+        "Barrage": 1,
+        "Seasons": 1,
+        "CATAN": 1,
+        "Coloretto": 1,
+        "Carnegie": 1,
+        "The Isle of Cats": 1,
+        "A Feast for Odin": 1,
+        "Spot it": 1,
+        "Tapestry": 1
+      }
+    },
+    "2023": {
+      "total_games": 68,
+      "most_played_game": "Beyond the Sun",
+      "per_player": {
+        "alice2": {
+          "games_played": 67,
+          "wins": 18,
+          "win_rate": 0.269,
+          "avg_rank": 2.34
+        },
+        "thepengineer": {
+          "games_played": 28,
+          "wins": 4,
+          "win_rate": 0.143,
+          "avg_rank": 2.32
+        },
+        "thomaspr": {
+          "games_played": 68,
+          "wins": 28,
+          "win_rate": 0.412,
+          "avg_rank": 2.0
+        },
+        "kristiah": {
+          "games_played": 60,
+          "wins": 18,
+          "win_rate": 0.3,
+          "avg_rank": 2.17
+        }
+      },
+      "per_game": {
+        "Beyond the Sun": 10,
+        "The Castles of Burgundy": 7,
+        "Great Western Trail": 6,
+        "Space Base": 4,
+        "The Voyages of Marco Polo": 3,
+        "Rauha": 3,
+        "The Gnomes of Zavandor": 2,
+        "After Us": 2,
+        "Canvas": 2,
+        "Ark Nova": 2,
+        "Expeditions: Around the World": 2,
+        "Bunny Kingdom": 2,
+        "Earth": 2,
+        "Tiwanaku": 2,
+        "boop.": 2,
+        "CuBirds": 2,
+        "Cubosaurs": 2,
+        "Draftosaurus": 2,
+        "Clans of Caledonia": 1,
+        "Amalfi - Renaissance": 1,
+        "Agricola": 1,
+        "Carnegie": 1,
+        "Potion Explosion": 1,
+        "Humanity": 1,
+        "Mech A Dream": 1,
+        "Obsession": 1,
+        "Alhambra": 1,
+        "Jaipur": 1,
+        "Lost Ruins of Arnak": 1
+      }
+    },
+    "2024": {
+      "total_games": 45,
+      "most_played_game": "Beyond the Sun",
+      "per_player": {
+        "thomaspr": {
+          "games_played": 45,
+          "wins": 23,
+          "win_rate": 0.511,
+          "avg_rank": 1.87
+        },
+        "alice2": {
+          "games_played": 45,
+          "wins": 4,
+          "win_rate": 0.089,
+          "avg_rank": 2.6
+        },
+        "kristiah": {
+          "games_played": 45,
+          "wins": 12,
+          "win_rate": 0.267,
+          "avg_rank": 2.22
+        },
+        "thepengineer": {
+          "games_played": 28,
+          "wins": 6,
+          "win_rate": 0.214,
+          "avg_rank": 2.82
+        }
+      },
+      "per_game": {
+        "Beyond the Sun": 7,
+        "Agricola": 4,
+        "Terraforming Mars": 4,
+        "The Castles of Burgundy": 3,
+        "Great Western Trail": 3,
+        "Fromage": 3,
+        "Cosmoctopus": 2,
+        "Potion Explosion": 2,
+        "Tzolk'in": 2,
+        "Space Base": 2,
+        "Planet Unknown": 2,
+        "Age of Innovation: a Terra Mystica game": 1,
+        "Gaia Project": 1,
+        "Seasons": 1,
+        "Pax Renaissance": 1,
+        "Alhambra": 1,
+        "Looot": 1,
+        "Praga Caput Regni": 1,
+        "The King's Guild": 1,
+        "The Wolves": 1,
+        "After Us": 1,
+        "7 Wonders": 1
+      }
+    },
+    "2025": {
+      "total_games": 45,
+      "most_played_game": "Beyond the Sun",
+      "per_player": {
+        "thomaspr": {
+          "games_played": 45,
+          "wins": 17,
+          "win_rate": 0.378,
+          "avg_rank": 2.02
+        },
+        "kristiah": {
+          "games_played": 45,
+          "wins": 14,
+          "win_rate": 0.311,
+          "avg_rank": 2.33
+        },
+        "thepengineer": {
+          "games_played": 26,
+          "wins": 6,
+          "win_rate": 0.231,
+          "avg_rank": 2.58
+        },
+        "alice2": {
+          "games_played": 45,
+          "wins": 9,
+          "win_rate": 0.2,
+          "avg_rank": 2.42
+        }
+      },
+      "per_game": {
+        "Beyond the Sun": 5,
+        "Potion Explosion": 4,
+        "Bonsai": 4,
+        "Pergola": 4,
+        "Great Western Trail": 4,
+        "7 Wonders": 3,
+        "The White Castle": 3,
+        "The Castles of Burgundy": 2,
+        "Alhambra": 2,
+        "Castles of Mad King Ludwig": 2,
+        "Terraforming Mars": 2,
+        "Crafting the Cosmos": 2,
+        "Cosmoctopus": 2,
+        "Wingspan": 2,
+        "Tiny Towns": 1,
+        "Apiary": 1,
+        "Four Gardens": 1,
+        "El Grande": 1
+      }
+    },
+    "2026": {
+      "total_games": 8,
+      "most_played_game": "Harmonies",
+      "per_player": {
+        "thomaspr": {
+          "games_played": 8,
+          "wins": 3,
+          "win_rate": 0.375,
+          "avg_rank": 1.88
+        },
+        "kristiah": {
+          "games_played": 8,
+          "wins": 3,
+          "win_rate": 0.375,
+          "avg_rank": 2.12
+        },
+        "alice2": {
+          "games_played": 8,
+          "wins": 2,
+          "win_rate": 0.25,
+          "avg_rank": 2.25
+        },
+        "thepengineer": {
+          "games_played": 2,
+          "wins": 0,
+          "win_rate": 0.0,
+          "avg_rank": 3.0
+        }
+      },
+      "per_game": {
+        "Harmonies": 5,
+        "The Castles of Burgundy": 2,
+        "Movers & Shakers": 1
+      }
+    }
+  }
+}
