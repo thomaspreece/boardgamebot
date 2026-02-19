@@ -270,6 +270,25 @@ def generate_stats():
 
     TRACKED_PLAYERS = {"kristiah", "thepengineer", "thomaspr", "alice2"}
 
+    # Pre-compute first-play wins: iterate oldest-first to find each player's debut per game
+    first_play_wins = {}   # player -> list of display names of games won on first play
+    first_play_seen = set()  # (player, game_name) pairs already recorded
+    for entry in reversed(history):
+        entry_players = [p.strip() for p in entry.get("player_names", "").split(",") if p.strip()]
+        entry_ranks = entry.get("ranks", "").split(",")
+        entry_game = entry.get("game_name", "")
+        entry_display = display_names.get(str(entry.get("game_id", "")), entry_game)
+        for i, player in enumerate(entry_players):
+            key = (player, entry_game)
+            if key not in first_play_seen:
+                first_play_seen.add(key)
+                try:
+                    rank = int(entry_ranks[i])
+                except (IndexError, ValueError):
+                    rank = None
+                if rank == 1:
+                    first_play_wins.setdefault(player, []).append(entry_display)
+
     player_stats = {}  # player_name -> aggregated stats
     game_stats = {}    # game_name -> aggregated stats
     year_stats = {}    # year_str -> aggregated stats
@@ -401,6 +420,8 @@ def generate_stats():
             "most_played_game": most_played,
             "best_win_rate_game": best_win_rate,
             "best_weighted_win_rate_game": best_weighted,
+            "first_play_wins": len(first_play_wins.get(player, [])),
+            "first_play_win_games": sorted(first_play_wins.get(player, [])),
             "per_game": per_game_out,
         }
 
