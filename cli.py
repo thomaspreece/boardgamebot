@@ -1,8 +1,23 @@
 import argparse
+import random
 from bga_functions import pull_game_list, pull_player_history, suggest_forgotten_games, suggest_new_games, send_signal_message
 
+SUGGEST_INTROS = [
+    "It's time for this week's games roundup!",
+    "Game night is calling — here's what's on the radar this week.",
+    "Your weekly game suggestions have arrived!",
+    "What should we play this week? Here are some ideas.",
+    "Fresh off the press: your weekly game recommendations!",
+    "Gather round — it's time to pick what we're playing this week.",
+    "It's that time again — let's figure out what we're playing!",
+    "Who needs Netflix? Here's what we should be playing this week.",
+    "Another week, another chance to find your next favourite game.",
+    "Here's what BGA has in store for us this week.",
+    "Meeples at the ready! Here are this week's suggestions.",
+]
+
 def suggest_games(awards_only=False):
-    parts = []
+    parts = [random.choice(SUGGEST_INTROS)]
     result = suggest_forgotten_games()
     if result:
         parts.append(result)
