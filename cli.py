@@ -17,14 +17,14 @@ SUGGEST_INTROS = [
 ]
 
 def suggest_games(awards_only=False):
-    parts = [random.choice(SUGGEST_INTROS)]
+    parts = []
     result = suggest_forgotten_games()
     if result:
-        parts.append(result)
+        parts.append(result.strip())
     result = suggest_new_games(awards_only)
     if result:
-        parts.append(result)
-    return "\n\n".join(parts)
+        parts.append(result.strip())
+    return random.choice(SUGGEST_INTROS) + "\n\n" + "\n\n".join(parts)
 
 COMMANDS = {
     "games": pull_game_list,
